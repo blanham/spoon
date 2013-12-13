@@ -1,0 +1,96 @@
+
+This file only details how to install the tree onto your 
+system so that you can make changes, compile and possibly 
+boot the system if you want.
+
+
+
+REQUIREMENTS:
+-------------
+
+The system compiles perfectly on my Gentoo Linux.
+
+1. gcc version 3.3.2 
+	GNU assembler version 2.14.90.0.8 
+	GNU ld version 2.14.90.0.8 
+
+2. grub (GNU GRUB 0.94)
+
+Anything else is not guaranteed but it will probably work.
+
+
+INSTALLATION
+------------
+
+1.  Create a directory "/spoon" with the appropriate
+    permissions. Note: "/spoon" is in the root.
+
+    As root: 
+    	mkdir /spoon
+	chown durand:users /spoon
+		( or whomever you are.. )
+
+    Now logout of user root.
+
+2.  Download the latest snapshot:
+
+	wget http://www.djm.co.za/spoon/snapshot.tar.gz
+
+3.  Extract it:
+
+	tar -C / -xmzvf snapshot.tar.gz
+
+
+
+TESTING
+-------
+
+Did it work correctly?  Will it compile?
+
+1.  Change to "/spoon/system/source"
+
+2.  View the README to get the Quick Start on how to
+    compile and install.
+
+
+
+Any errors mean that something is not happy.  Fix it 
+and try again.  
+
+If you do get errors and it has to do with source syntax
+or version conflicts, please let me know: clutter at djm.co.za
+
+
+BOOTING:
+-------
+
+Now you need to add the system to your GRUB menu.
+
+This is what I'm using at the moment. Just change the
+root (hd0,0) to whatever partition you have "/spoon" on.
+
+	title spoon
+	root (hd0,0)
+	kernel /spoon/system/kernel
+	module /spoon/system/init
+	module /spoon/system/drivers/input/kbd
+	module /spoon/system/servers/vfs_server
+	module /spoon/system/servers/app_server
+	module /spoon/system/bin/shell
+
+If you want a more appropriate/updated/comprehensive grub
+menu, copy the one from the floppy.conf file but change
+the root, obviously.
+
+
+NOTES AND STUFF
+---------------
+
+
+It's important to remember that, since this is a 
+microkernel, you should only load the modules that 
+you will need or want to use. For example, don't 
+load the ps2mouse driver if you're not in a GUI.
+
+
+

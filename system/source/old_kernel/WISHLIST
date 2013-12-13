@@ -1,0 +1,119 @@
+
+
+This is a way for me to formulate what new features will be required in the
+next-gen kernel.
+
+
+
+
+GLOBAL CONSIDERATIONS
+---------------------
+
+
+
+EXECUTION
+---------
+
+1. The kernel should allow ELF and flat binary execution.
+
+2. The flat binary execution should have a start address defined.
+
+
+DEBUGGING
+---------
+
+1. An application should be able to register itself as the
+   official debugger of a child application.
+
+2. The debugger application should be able to inspect and
+   modify the memory and registers of the child process. 
+
+3. It should be able to step through an application as it's
+   running.
+
+3. The debugger application should be able to detach from 
+   the process and allow it to continue running.
+
+
+PHYSICAL MEMORY
+---------------
+
+1. There will two data structures governing the memory.
+
+     1. A bitmap which will govern the entire space.
+     2. A stack which will provide O(1) access to individual
+        pages.
+
+   The majority of memory operations in the kernel are single
+   page requests.
+
+
+
+VIRTUAL MEMORY
+--------------
+
+1. Each page will be correctly flagged now (free me, don't free me, etc ). 
+   Right now there's a little bit of confusion in this area. 
+
+2. Memory operations should be atomic and it should eliminate the need
+   to lock the memory structures.
+
+
+THREADING
+---------
+
+1. There must only be 1 thread stack in each process space. Right
+   now all threads share the same process space and that creates
+   major hassles for future management.  I think the slight
+   performance hit of invalidating 1-3 pages on a thread switch
+   will be less than the future benefits.
+
+
+
+SYSTEM
+------
+
+1.  v86 support.
+
+
+IPC
+---
+
+
+1. I was considering having global ports. For example, the VFS
+   server in a system could always be sitting on the global port
+   5.  Normal process ports will still remain but the addition
+   of global ports seems interesting.... But it doesn't appear
+   to add anything.  Maybe it's pointless?  It probably is.
+ 
+
+
+
+MESSAGES
+--------
+
+
+1. scatter-gather sending - The ability of a userland application to
+   give the kernel multiple address to send. The kernel then concats
+   all of the addresses into 1 message.
+
+
+2. One-copy messaging - The standard messaging will be reduced to a
+   single copy operation. Right now it's copy in and copy out. Whereas
+   it should be a copy in and map out.
+
+3. Depending on how confident I feel in the final design, an optional
+   Zero-copy messaging system.
+
+
+
+
+
+I'll edit this as I think of more stuff to add...   
+
+Any suggestions?
+
+
+
+
+

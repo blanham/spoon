@@ -1,0 +1,10 @@
+
+init accepts command line parameters which can 
+be appended onto the GRUB command line.
+
+
+root	= [full device path]
+search	= [comma separated list of devices in /device/storage]
+exec	= [full pathname of file to execute]
+
+

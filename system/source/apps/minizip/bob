@@ -1,0 +1,1214 @@
+miniunz.c:49: error: `filename' was not declared in this scope
+miniunz.c:49: error: `dosdate' was not declared in this scope
+miniunz.c:49: error: `tmu_date' was not declared in this scope
+miniunz.c:50: error: variable or field `change_file_date' declared void
+miniunz.c:50: error: initializer list being treated as compound expression
+miniunz.c:50: error: syntax error before `char'
+miniunz.c:53: error: parse error before `{' token
+miniunz.c:69: error: syntax error before `.' token
+miniunz.c:70: error: syntax error before `.' token
+miniunz.c:71: error: syntax error before `.' token
+miniunz.c:72: error: syntax error before `.' token
+miniunz.c:73: error: syntax error before `.' token
+miniunz.c:78: error: syntax error before `.' token
+miniunz.c:80: error: syntax error before `.' token
+miniunz.c:81: error: `filename' was not declared in this scope
+miniunz.c:81: error: `ut' was not declared in this scope
+miniunz.c:81: error: ISO C++ forbids declaration of `utime' with no type
+miniunz.c:81: error: `int utime' redeclared as different kind of symbol
+/spoon/system/source/include/unix/utime.h:14: error: previous declaration of `
+   int utime(const char*, const utimbuf*)'
+miniunz.c:81: error: initializer list being treated as compound expression
+miniunz.c:84: error: parse error before `}' token
+miniunz.c:90: error: `dirname' was not declared in this scope
+miniunz.c:91: error: syntax error before `char'
+miniunz.c:98: error: ISO C++ forbids declaration of `ret' with no type
+miniunz.c:98: error: `dirname' was not declared in this scope
+miniunz.c:98: error: `mkdir' was not declared in this scope
+miniunz.c:101: error: parse error before `return'
+miniunz.c:104: error: `newdir' was not declared in this scope
+miniunz.c:105: error: syntax error before `char'
+miniunz.c:109: error: `newdir' was not declared in this scope
+miniunz.c:111: error: parse error before `if'
+miniunz.c:114: error: ISO C++ forbids declaration of `buffer' with no type
+miniunz.c:114: error: invalid conversion from `char*' to `int'
+miniunz.c:115: error: `newdir' was not declared in this scope
+miniunz.c:115: error: ISO C++ forbids declaration of `strcpy' with no type
+miniunz.c:115: error: `int strcpy' redeclared as different kind of symbol
+/spoon/system/source/include/unix/string.h:22: error: previous declaration of `
+   char* strcpy(char*, const char*)'
+miniunz.c:115: error: initializer list being treated as compound expression
+miniunz.c:117: error: parse error before `if'
+miniunz.c:126: error: ISO C++ forbids declaration of `p' with no type
+miniunz.c:126: error: conflicting types for `int p'
+miniunz.c:108: error: previous declaration as `char*p'
+miniunz.c:127: error: parse error before `while'
+miniunz.c:133: error: ISO C++ forbids declaration of `hold' with no type
+miniunz.c:133: error: invalid type argument of `unary *'
+miniunz.c:134: error: ISO C++ forbids declaration of `p' with no type
+miniunz.c:134: error: conflicting types for `int*p'
+miniunz.c:126: error: previous declaration as `int p'
+miniunz.c:135: error: parse error before `if'
+miniunz.c:138: error: ISO C++ forbids declaration of `free' with no type
+miniunz.c:138: error: `int free' redeclared as different kind of symbol
+/spoon/system/source/include/unix/stdlib.h:50: error: previous declaration of `
+   void free(void*)'
+miniunz.c:139: error: parse error before `return'
+miniunz.c:143: error: syntax error before `++' token
+miniunz.c:145: error: ISO C++ forbids declaration of `free' with no type
+miniunz.c:145: error: redefinition of `int free'
+miniunz.c:138: error: `int free' previously declared here
+miniunz.c:146: error: parse error before `return'
+miniunz.c:168: error: `uf' was not declared in this scope
+miniunz.c:169: error: syntax error before `uf'
+miniunz.c:175: error: ISO C++ forbids declaration of `err' with no type
+miniunz.c:175: error: redefinition of `int err'
+miniunz.c:173: error: `int err' previously declared here
+miniunz.c:175: error: `uf' was not declared in this scope
+miniunz.c:176: error: parse error before `if'
+miniunz.c:178: error: ISO C++ forbids declaration of `printf' with no type
+miniunz.c:178: error: `int printf' redeclared as different kind of symbol
+/spoon/system/source/include/unix/stdio.h:119: error: previous declaration of `
+   int printf(const char*, ...)'
+miniunz.c:178: error: invalid conversion from `const char*' to `int'
+miniunz.c:179: error: ISO C++ forbids declaration of `printf' with no type
+miniunz.c:179: error: redefinition of `int printf'
+miniunz.c:178: error: `int printf' previously defined here
+miniunz.c:179: error: invalid conversion from `const char*' to `int'
+miniunz.c:180: error: parse error before `for'
+miniunz.c:180: error: parse error before `;' token
+miniunz.c:180: error: syntax error before `++' token
+miniunz.c:187: error: ISO C++ forbids declaration of `err' with no type
+miniunz.c:187: error: redefinition of `int err'
+miniunz.c:175: error: `int err' previously defined here
+miniunz.c:187: error: `uf' was not declared in this scope
+miniunz.c:187: error: `filename_inzip' was not declared in this scope
+miniunz.c:187: error: `filename_inzip' was not declared in this scope
+miniunz.c:188: error: parse error before `if'
+miniunz.c:225: error: `filename_inzip' was not declared in this scope
+miniunz.c:225: error: ISO C++ forbids declaration of `printf' with no type
+miniunz.c:225: error: redefinition of `int printf'
+miniunz.c:179: error: `int printf' previously defined here
+miniunz.c:225: error: initializer list being treated as compound expression
+miniunz.c:226: error: parse error before `if'
+miniunz.c:241: error: `uf' was not declared in this scope
+miniunz.c:241: error: `popt_extract_without_path' was not declared in this 
+   scope
+miniunz.c:241: error: `popt_overwrite' was not declared in this scope
+miniunz.c:241: error: `password' was not declared in this scope
+miniunz.c:242: error: initializer list being treated as compound expression
+miniunz.c:242: error: syntax error before `uf'
+miniunz.c:246: error: parse error before `{' token
+miniunz.c:249: error: conflicting types for `char*p'
+miniunz.c:134: error: previous declaration as `int*p'
+miniunz.c:250: error: redefinition of `int err'
+miniunz.c:187: error: `int err' previously defined here
+miniunz.c:255: error: redefinition of `unz_file_info file_info'
+miniunz.c:183: error: `unz_file_info file_info' previously declared here
+miniunz.c:256: error: redefinition of `uLong ratio'
+miniunz.c:184: error: `uLong ratio' previously defined here
+miniunz.c:257: error: ISO C++ forbids declaration of `err' with no type
+miniunz.c:257: error: redefinition of `int err'
+miniunz.c:250: error: `int err' previously defined here
+miniunz.c:257: error: `uf' was not declared in this scope
+miniunz.c:257: error: `filename_inzip' was not declared in this scope
+miniunz.c:257: error: `filename_inzip' was not declared in this scope
+miniunz.c:259: error: parse error before `if'
+miniunz.c:265: error: ISO C++ forbids declaration of `size_buf' with no type
+miniunz.c:265: error: conflicting types for `int size_buf'
+miniunz.c:253: error: previous declaration as `uInt size_buf'
+miniunz.c:266: error: ISO C++ forbids declaration of `buf' with no type
+miniunz.c:266: error: conflicting types for `int buf'
+miniunz.c:252: error: previous declaration as `void*buf'
+miniunz.c:267: error: parse error before `if'
+miniunz.c:273: error: ISO C++ forbids declaration of `p' with no type
+miniunz.c:273: error: conflicting types for `int p'
+miniunz.c:249: error: previous declaration as `char*p'
+miniunz.c:273: error: `filename_inzip' was not declared in this scope
+miniunz.c:274: error: parse error before `while'
+miniunz.c:278: error: syntax error before `++' token
+miniunz.c:286: error: `filename_inzip' was not declared in this scope
+miniunz.c:286: error: ISO C++ forbids declaration of `mymkdir' with no type
+miniunz.c:286: error: redefinition of `int mymkdir'
+miniunz.c:91: error: `int mymkdir' previously defined here
+miniunz.c:287: error: parse error before `}' token
+miniunz.c:294: error: parse error before `if'
+miniunz.c:299: error: ISO C++ forbids declaration of `err' with no type
+miniunz.c:299: error: redefinition of `int err'
+miniunz.c:257: error: `int err' previously defined here
+miniunz.c:299: error: `uf' was not declared in this scope
+miniunz.c:300: error: parse error before `if'
+miniunz.c:309: error: ISO C++ forbids declaration of `ftestexist' with no type
+miniunz.c:309: error: conflicting types for `int ftestexist'
+miniunz.c:308: error: previous declaration as `FILE*ftestexist'
+miniunz.c:309: error: `write_filename' was not declared in this scope
+miniunz.c:310: error: parse error before `if'
+miniunz.c:316: error: redefinition of `int ret'
+miniunz.c:98: error: `int ret' previously defined here
+miniunz.c:318: error: `write_filename' was not declared in this scope
+miniunz.c:318: error: ISO C++ forbids declaration of `printf' with no type
+miniunz.c:318: error: redefinition of `int printf'
+miniunz.c:225: error: `int printf' previously defined here
+miniunz.c:318: error: initializer list being treated as compound expression
+miniunz.c:319: error: ISO C++ forbids declaration of `ret' with no type
+miniunz.c:319: error: redefinition of `int ret'
+miniunz.c:316: error: `int ret' previously declared here
+miniunz.c:319: error: `answer' was not declared in this scope
+miniunz.c:320: error: parse error before `if'
+miniunz.c:324: error: ISO C++ forbids declaration of `rep' with no type
+miniunz.c:324: error: `answer' was not declared in this scope
+miniunz.c:325: error: parse error before `if'
+miniunz.c:347: error: parse error before `-' token
+miniunz.c:348: error: `write_filename' was not declared in this scope
+miniunz.c:348: error: ISO C++ forbids declaration of `makedir' with no type
+miniunz.c:348: error: redefinition of `int makedir'
+miniunz.c:105: error: `int makedir' previously defined here
+miniunz.c:349: error: parse error before `-' token
+miniunz.c:350: error: ISO C++ forbids declaration of `fout' with no type
+miniunz.c:350: error: conflicting types for `int fout'
+miniunz.c:251: error: previous declaration as `FILE*fout'
+miniunz.c:350: error: `write_filename' was not declared in this scope
+miniunz.c:351: error: parse error before `}' token
+miniunz.c:375: error: ISO C++ forbids declaration of `err' with no type
+miniunz.c:375: error: redefinition of `int err'
+miniunz.c:299: error: `int err' previously defined here
+miniunz.c:376: error: parse error before `break'
+miniunz.c:400: error: ISO C++ forbids declaration of `free' with no type
+miniunz.c:400: error: redefinition of `int free'
+miniunz.c:145: error: `int free' previously declared here
+miniunz.c:401: error: parse error before `return'
+miniunz.c:405: error: `uf' was not declared in this scope
+miniunz.c:405: error: `opt_extract_without_path' was not declared in this scope
+miniunz.c:405: error: `opt_overwrite' was not declared in this scope
+miniunz.c:406: error: initializer list being treated as compound expression
+miniunz.c:406: error: syntax error before `uf'
+miniunz.c:409: error: redefinition of `const char*password'
+miniunz.c:245: error: `const char*password' previously declared here
+miniunz.c:410: error: parse error before `{' token
+miniunz.c:412: error: redefinition of `unz_global_info gi'
+miniunz.c:172: error: `unz_global_info gi' previously declared here
+miniunz.c:413: error: redefinition of `int err'
+miniunz.c:375: error: `int err' previously defined here
+miniunz.c:414: error: conflicting types for `FILE*fout'
+miniunz.c:350: error: previous declaration as `int fout'
+miniunz.c:416: error: ISO C++ forbids declaration of `err' with no type
+miniunz.c:416: error: redefinition of `int err'
+miniunz.c:413: error: `int err' previously declared here
+miniunz.c:416: error: `uf' was not declared in this scope
+miniunz.c:417: error: parse error before `if'
+miniunz.c:420: error: parse error before `;' token
+miniunz.c:420: error: syntax error before `++' token
+miniunz.c:441: error: `uf' was not declared in this scope
+miniunz.c:441: error: `filename' was not declared in this scope
+miniunz.c:442: error: initializer list being treated as compound expression
+miniunz.c:442: error: syntax error before `uf'
+miniunz.c:444: error: redefinition of `int opt_extract_without_path'
+miniunz.c:407: error: `int opt_extract_without_path' previously declared here
+miniunz.c:445: error: redefinition of `int opt_overwrite'
+miniunz.c:408: error: `int opt_overwrite' previously declared here
+miniunz.c:446: error: redefinition of `const char*password'
+miniunz.c:409: error: `const char*password' previously declared here
+miniunz.c:447: error: parse error before `{' token
+miniunz.c:464: error: `argc' was not declared in this scope
+miniunz.c:464: error: `argv' was not declared in this scope
+miniunz.c:465: error: initializer list being treated as compound expression
+miniunz.c:465: error: syntax error before `int'
+miniunz.c:466: error: storage size of `argv' isn't known
+miniunz.c:466: error: storage size of `argv' isn't known
+miniunz.c:467: error: parse error before `{' token
+miniunz.c:470: error: redefinition of `const char*password'
+miniunz.c:446: error: `const char*password' previously declared here
+miniunz.c:476: error: redefinition of `int opt_overwrite'
+miniunz.c:445: error: `int opt_overwrite' previously declared here
+miniunz.c:481: error: ISO C++ forbids declaration of `do_banner' with no type
+miniunz.c:481: error: new declaration `int do_banner()'
+miniunz.c:150: error: ambiguates old declaration `void do_banner()'
+miniunz.c:482: error: parse error before `if'
+miniunz.c:489: error: `argc' was not declared in this scope
+miniunz.c:489: error: parse error before `;' token
+miniunz.c:489: error: syntax error before `++' token
+miniunz.c:511: error: ISO C++ forbids declaration of `dirname' with no type
+miniunz.c:511: error: conflicting types for `int dirname'
+miniunz.c:478: error: previous declaration as `const char*dirname'
+miniunz.c:512: error: parse error before `}' token
+miniunz.c:517: error: syntax error before `++' token
+miniunz.c:540: error: ISO C++ forbids declaration of `filename_try' with no 
+   type
+miniunz.c:540: error: conflicting types for `int filename_try[256]'
+miniunz.c:471: error: previous declaration as `char filename_try[272]'
+miniunz.c:546: error: ISO C++ forbids declaration of `uf' with no type
+miniunz.c:546: error: conflicting types for `int uf'
+miniunz.c:479: error: previous declaration as `void*uf'
+miniunz.c:546: error: `zipfilename' was not declared in this scope
+miniunz.c:548: error: parse error before `if'
+miniunz.c:554: error: ISO C++ forbids declaration of `uf' with no type
+miniunz.c:554: error: redefinition of `int uf'
+miniunz.c:546: error: `int uf' previously defined here
+miniunz.c:554: error: cannot convert `int*' to `const char*' for argument `1' 
+   to `void* unzOpen(const char*)'
+miniunz.c:556: error: parse error before `}' token
+miniunz.c:564: error: ISO C++ forbids declaration of `printf' with no type
+miniunz.c:564: error: redefinition of `int printf'
+miniunz.c:318: error: `int printf' previously defined here
+miniunz.c:564: error: initializer list being treated as compound expression
+miniunz.c:564: error: invalid conversion from `int*' to `int'
+miniunz.c:566: error: parse error before `if'
+miniunz.c:573: error: ISO C++ forbids declaration of `exit' with no type
+miniunz.c:573: error: `int exit' redeclared as different kind of symbol
+/spoon/system/source/include/unix/stdlib.h:48: error: previous declaration of `
+   void exit(int)'
+miniunz.c:574: error: parse error before `}' token
+miniunz.c:582: error: ISO C++ forbids declaration of `unzCloseCurrentFile' with 
+   no type
+miniunz.c:582: error: `int unzCloseCurrentFile' redeclared as different kind of 
+   symbol
+unzip.h:294: error: previous declaration of `int unzCloseCurrentFile(void*)'
+miniunz.c:584: error: parse error before `return'
+miniunz.c: In function `void __static_initialization_and_destruction_0(int, 
+   int)':
+miniunz.c:265: warning: statement with no effect
+miniunz.c:414: warning: statement with no effect
+miniunz.c:540: warning: statement with no effect
+unzip.c:171: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:171: error: `filestream' was not declared in this scope
+unzip.c:171: error: `pi' was not declared in this scope
+unzip.c:172: error: `int unzlocal_getByte' redeclared as different kind of 
+   symbol
+unzip.c:166: error: previous declaration of `int unzlocal_getByte(const 
+   zlib_filefunc_def*, void*, int*)'
+unzip.c:172: error: initializer list being treated as compound expression
+unzip.c:172: error: syntax error before `*' token
+unzip.c:175: error: parse error before `{' token
+unzip.c:177: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:177: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:177: error: `c' was not declared in this scope
+unzip.c:178: error: parse error before `if'
+unzip.c:201: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:201: error: `pX' was not declared in this scope
+unzip.c:202: error: `int unzlocal_getShort' redeclared as different kind of 
+   symbol
+unzip.c:196: error: previous declaration of `int unzlocal_getShort(const 
+   zlib_filefunc_def*, void*, uLong*)'
+unzip.c:202: error: initializer list being treated as compound expression
+unzip.c:202: error: syntax error before `*' token
+unzip.c:203: error: redefinition of `void*filestream'
+unzip.c:173: error: `void*filestream' previously declared here
+unzip.c:205: error: parse error before `{' token
+unzip.c:208: error: redefinition of `int err'
+unzip.c:177: error: `int err' previously defined here
+unzip.c:210: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:210: error: redefinition of `int err'
+unzip.c:208: error: `int err' previously declared here
+unzip.c:210: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:210: error: `unzlocal_getByte' cannot be used as a function
+unzip.c:211: error: ISO C++ forbids declaration of `x' with no type
+unzip.c:213: error: parse error before `if'
+unzip.c:215: error: syntax error before `+=' token
+unzip.c:229: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:230: error: `int unzlocal_getLong' redeclared as different kind of 
+   symbol
+unzip.c:224: error: previous declaration of `int unzlocal_getLong(const 
+   zlib_filefunc_def*, void*, uLong*)'
+unzip.c:230: error: initializer list being treated as compound expression
+unzip.c:230: error: syntax error before `*' token
+unzip.c:231: error: redefinition of `void*filestream'
+unzip.c:203: error: `void*filestream' previously declared here
+unzip.c:232: error: redefinition of `uLong*pX'
+unzip.c:204: error: `uLong*pX' previously declared here
+unzip.c:233: error: parse error before `{' token
+unzip.c:235: error: redefinition of `int i'
+unzip.c:207: error: `int i' previously declared here
+unzip.c:236: error: redefinition of `int err'
+unzip.c:210: error: `int err' previously defined here
+unzip.c:238: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:238: error: redefinition of `int err'
+unzip.c:236: error: `int err' previously declared here
+unzip.c:238: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:238: error: `unzlocal_getByte' cannot be used as a function
+unzip.c:239: error: ISO C++ forbids declaration of `x' with no type
+unzip.c:239: error: redefinition of `int x'
+unzip.c:211: error: `int x' previously declared here
+unzip.c:241: error: parse error before `if'
+unzip.c:243: error: syntax error before `+=' token
+unzip.c:247: error: syntax error before `+=' token
+unzip.c:251: error: syntax error before `+=' token
+unzip.c:262: error: `fileName1' was not declared in this scope
+unzip.c:262: error: `fileName2' was not declared in this scope
+unzip.c:263: error: initializer list being treated as compound expression
+unzip.c:263: error: syntax error before `char'
+unzip.c:265: error: parse error before `{' token
+unzip.c:270: error: parse error before `if'
+unzip.c:305: error: `fileName1' was not declared in this scope
+unzip.c:305: error: `iCaseSensitivity' was not declared in this scope
+unzip.c:306: warning: `unzStringFileNameCompare' initialized and declared 
+   `extern'
+unzip.c:306: error: `int unzStringFileNameCompare' redeclared as different kind 
+   of symbol
+unzip.h:122: error: previous declaration of `int unzStringFileNameCompare(const 
+   char*, const char*, int)'
+unzip.c:306: error: initializer list being treated as compound expression
+unzip.c:306: error: syntax error before `char'
+unzip.c:307: error: redefinition of `const char*fileName2'
+unzip.c:264: error: `const char*fileName2' previously declared here
+unzip.c:309: error: parse error before `{' token
+unzip.c:331: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:332: error: `uLong unzlocal_SearchCentralDir' redeclared as different 
+   kind of symbol
+unzip.c:327: error: previous declaration of `uLong 
+   unzlocal_SearchCentralDir(const zlib_filefunc_def*, void*)'
+unzip.c:332: error: initializer list being treated as compound expression
+unzip.c:332: error: syntax error before `*' token
+unzip.c:333: error: redefinition of `void*filestream'
+unzip.c:231: error: `void*filestream' previously declared here
+unzip.c:334: error: parse error before `{' token
+unzip.c:341: error: parse error before `if'
+unzip.c:345: error: ISO C++ forbids declaration of `uSizeFile' with no type
+unzip.c:345: error: conflicting types for `int uSizeFile'
+unzip.c:336: error: previous declaration as `uLong uSizeFile'
+unzip.c:345: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:345: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:347: error: parse error before `if'
+unzip.c:350: error: ISO C++ forbids declaration of `buf' with no type
+unzip.c:350: error: invalid conversion from `unsigned char*' to `int'
+unzip.c:351: error: parse error before `if'
+unzip.c:354: error: ISO C++ forbids declaration of `uBackRead' with no type
+unzip.c:354: error: conflicting types for `int uBackRead'
+unzip.c:337: error: previous declaration as `uLong uBackRead'
+unzip.c:355: error: parse error before `while'
+unzip.c:358: error: redefinition of `int i'
+unzip.c:235: error: `int i' previously declared here
+unzip.c:359: error: parse error before `if'
+unzip.c:363: error: ISO C++ forbids declaration of `uReadPos' with no type
+unzip.c:365: error: ISO C++ forbids declaration of `uReadSize' with no type
+unzip.c:367: error: parse error before `if'
+unzip.c:373: error: parse error before `--' token
+unzip.c:397: error: `path' was not declared in this scope
+unzip.c:397: error: `pzlib_filefunc_def' was not declared in this scope
+unzip.c:398: warning: `unzOpen2' initialized and declared `extern'
+unzip.c:398: error: `void*unzOpen2' redeclared as different kind of symbol
+unzip.h:146: error: previous declaration of `void* unzOpen2(const char*, 
+   zlib_filefunc_def*)'
+unzip.c:398: error: initializer list being treated as compound expression
+unzip.c:398: error: syntax error before `char'
+unzip.c:400: error: parse error before `{' token
+unzip.c:413: error: redefinition of `int err'
+unzip.c:238: error: `int err' previously defined here
+unzip.c:415: error: parse error before `if'
+unzip.c:423: error: syntax error before `.' token
+unzip.c:430: error: ISO C++ forbids declaration of `central_pos' with no type
+unzip.c:430: error: conflicting types for `int central_pos'
+unzip.c:403: error: previous declaration as `uLong central_pos'
+unzip.c:430: error: `us' was not declared in this scope
+unzip.c:430: error: `us' was not declared in this scope
+unzip.c:430: error: `unzlocal_SearchCentralDir' cannot be used as a function
+unzip.c:431: error: parse error before `if'
+unzip.c:486: error: syntax error before `.' token
+unzip.c:488: error: syntax error before `.' token
+unzip.c:489: error: syntax error before `.' token
+unzip.c:490: error: syntax error before `.' token
+unzip.c:493: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:493: error: conflicting types for `int s'
+unzip.c:402: error: previous declaration as `unz_s*s'
+unzip.c:494: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:494: error: conflicting types for `int*s'
+unzip.c:493: error: previous declaration as `int s'
+unzip.c:494: error: `us' was not declared in this scope
+unzip.c:495: error: ISO C++ forbids declaration of `unzGoToFirstFile' with no 
+   type
+unzip.c:495: error: `int unzGoToFirstFile' redeclared as different kind of 
+   symbol
+unzip.h:181: error: previous declaration of `int unzGoToFirstFile(void*)'
+unzip.c:495: error: invalid conversion from `void*' to `int'
+unzip.c:496: error: parse error before `return'
+unzip.c:500: error: `path' was not declared in this scope
+unzip.c:501: warning: `unzOpen' initialized and declared `extern'
+unzip.c:501: error: `void*unzOpen' redeclared as different kind of symbol
+unzip.h:135: error: previous declaration of `void* unzOpen(const char*)'
+unzip.c:501: error: syntax error before `char'
+unzip.c:511: error: `file' was not declared in this scope
+unzip.c:512: warning: `unzClose' initialized and declared `extern'
+unzip.c:512: error: `int unzClose' redeclared as different kind of symbol
+unzip.h:153: error: previous declaration of `int unzClose(void*)'
+unzip.c:512: error: syntax error before `file'
+unzip.c:517: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:517: error: conflicting types for `int s'
+unzip.c:494: error: previous declaration as `int*s'
+unzip.c:517: error: `file' was not declared in this scope
+unzip.c:519: error: parse error before `if'
+unzip.c:522: error: parse error before `->' token
+unzip.c:532: error: `file' was not declared in this scope
+unzip.c:532: error: `pglobal_info' was not declared in this scope
+unzip.c:533: warning: `unzGetGlobalInfo' initialized and declared `extern'
+unzip.c:533: error: `int unzGetGlobalInfo' redeclared as different kind of 
+   symbol
+unzip.h:160: error: previous declaration of `int unzGetGlobalInfo(void*, 
+   unz_global_info*)'
+unzip.c:533: error: initializer list being treated as compound expression
+unzip.c:533: error: syntax error before `file'
+unzip.c:535: error: parse error before `{' token
+unzip.c:539: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:539: error: redefinition of `int s'
+unzip.c:517: error: `int s' previously defined here
+unzip.c:539: error: `file' was not declared in this scope
+unzip.c:540: error: ISO C++ forbids declaration of `pglobal_info' with no type
+unzip.c:540: error: conflicting types for `int*pglobal_info'
+unzip.c:534: error: previous declaration as `unz_global_info*pglobal_info'
+unzip.c:540: error: base operand of `->' is not a pointer
+unzip.c:541: error: parse error before `return'
+unzip.c:548: error: `ulDosDate' was not declared in this scope
+unzip.c:548: error: `ptm' was not declared in this scope
+unzip.c:549: error: variable or field `unzlocal_DosDateToTmuDate' declared void
+unzip.c:549: error: initializer list being treated as compound expression
+unzip.c:549: error: syntax error before `ulDosDate'
+unzip.c:551: error: parse error before `{' token
+unzip.c:553: error: ISO C++ forbids declaration of `uDate' with no type
+unzip.c:553: error: `ulDosDate' was not declared in this scope
+unzip.c:554: error: syntax error before `->' token
+unzip.c:555: error: syntax error before `->' token
+unzip.c:556: error: syntax error before `->' token
+unzip.c:558: error: syntax error before `->' token
+unzip.c:559: error: syntax error before `->' token
+unzip.c:560: error: syntax error before `->' token
+unzip.c:577: error: `file' was not declared in this scope
+unzip.c:578: error: `pfile_info' was not declared in this scope
+unzip.c:579: error: `pfile_info_internal' was not declared in this scope
+unzip.c:580: error: `szFileName' was not declared in this scope
+unzip.c:580: error: `fileNameBufferSize' was not declared in this scope
+unzip.c:581: error: `extraField' was not declared in this scope
+unzip.c:581: error: `extraFieldBufferSize' was not declared in this scope
+unzip.c:582: error: `szComment' was not declared in this scope
+unzip.c:582: error: `commentBufferSize' was not declared in this scope
+unzip.c:583: error: `int unzlocal_GetCurrentFileInfoInternal' redeclared as 
+   different kind of symbol
+unzip.c:566: error: previous declaration of `int 
+   unzlocal_GetCurrentFileInfoInternal(void*, unz_file_info*, 
+   unz_file_info_internal*, char*, long unsigned int, void*, long unsigned int, 
+   char*, long unsigned int)'
+unzip.c:583: error: initializer list being treated as compound expression
+unzip.c:583: error: syntax error before `file'
+unzip.c:592: error: parse error before `{' token
+unzip.c:596: error: redefinition of `int err'
+unzip.c:413: error: `int err' previously defined here
+unzip.c:600: error: parse error before `if'
+unzip.c:602: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:602: error: redefinition of `int s'
+unzip.c:539: error: `int s' previously defined here
+unzip.c:602: error: `file' was not declared in this scope
+unzip.c:603: error: parse error before `if'
+unzip.c:631: error: ISO C++ forbids declaration of `unzlocal_DosDateToTmuDate' 
+   with no type
+unzip.c:631: error: redefinition of `int unzlocal_DosDateToTmuDate'
+unzip.c:549: error: `int unzlocal_DosDateToTmuDate' previously defined here
+unzip.c:631: error: initializer list being treated as compound expression
+unzip.c:631: error: invalid conversion from `tm_unz*' to `int'
+unzip.c:633: error: parse error before `if'
+unzip.c:663: error: syntax error before `+=' token
+unzip.c:670: error: ISO C++ forbids declaration of `uSizeRead' with no type
+unzip.c:671: error: parse error before `}' token
+unzip.c:678: error: syntax error before `-=' token
+unzip.c:698: error: syntax error before `+=' token
+unzip.c:710: error: ISO C++ forbids declaration of `uSizeRead' with no type
+unzip.c:710: error: redefinition of `int uSizeRead'
+unzip.c:670: error: `int uSizeRead' previously declared here
+unzip.c:711: error: parse error before `}' token
+unzip.c:723: error: syntax error before `+=' token
+unzip.c:744: error: `file' was not declared in this scope
+unzip.c:749: warning: `unzGetCurrentFileInfo' initialized and declared `extern'
+unzip.c:749: error: `int unzGetCurrentFileInfo' redeclared as different kind of 
+   symbol
+unzip.h:226: error: previous declaration of `int unzGetCurrentFileInfo(void*, 
+   unz_file_info*, char*, long unsigned int, void*, long unsigned int, char*, 
+   long unsigned int)'
+unzip.c:749: error: initializer list being treated as compound expression
+unzip.c:749: error: syntax error before `file'
+unzip.c:750: error: redefinition of `unz_file_info*pfile_info'
+unzip.c:584: error: `unz_file_info*pfile_info' previously declared here
+unzip.c:751: error: redefinition of `char*szFileName'
+unzip.c:586: error: `char*szFileName' previously declared here
+unzip.c:752: error: redefinition of `uLong fileNameBufferSize'
+unzip.c:587: error: `uLong fileNameBufferSize' previously declared here
+unzip.c:753: error: redefinition of `void*extraField'
+unzip.c:588: error: `void*extraField' previously declared here
+unzip.c:754: error: redefinition of `uLong extraFieldBufferSize'
+unzip.c:589: error: `uLong extraFieldBufferSize' previously declared here
+unzip.c:755: error: redefinition of `char*szComment'
+unzip.c:590: error: `char*szComment' previously declared here
+unzip.c:756: error: redefinition of `uLong commentBufferSize'
+unzip.c:591: error: `uLong commentBufferSize' previously declared here
+unzip.c:757: error: parse error before `{' token
+unzip.c:768: error: `file' was not declared in this scope
+unzip.c:769: warning: `unzGoToFirstFile' initialized and declared `extern'
+unzip.c:769: error: redefinition of `int unzGoToFirstFile'
+unzip.c:495: error: `int unzGoToFirstFile' previously declared here
+unzip.c:769: error: syntax error before `file'
+unzip.c:772: error: conflicting types for `unz_s*s'
+unzip.c:602: error: previous declaration as `int s'
+unzip.c:773: error: parse error before `if'
+unzip.c:775: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:775: error: conflicting types for `int s'
+unzip.c:772: error: previous declaration as `unz_s*s'
+unzip.c:775: error: `file' was not declared in this scope
+unzip.c:776: error: syntax error before `->' token
+unzip.c:777: error: syntax error before `->' token
+unzip.c:778: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:778: error: redefinition of `int err'
+unzip.c:596: error: `int err' previously defined here
+unzip.c:778: error: `file' was not declared in this scope
+unzip.c:778: error: base operand of `->' is not a pointer
+unzip.c:779: error: base operand of `->' is not a pointer
+unzip.c:780: error: `unzlocal_GetCurrentFileInfoInternal' cannot be used as a 
+   function
+unzip.c:781: error: syntax error before `->' token
+unzip.c:790: error: `file' was not declared in this scope
+unzip.c:791: warning: `unzGoToNextFile' initialized and declared `extern'
+unzip.c:791: error: `int unzGoToNextFile' redeclared as different kind of 
+   symbol
+unzip.h:187: error: previous declaration of `int unzGoToNextFile(void*)'
+unzip.c:791: error: syntax error before `file'
+unzip.c:794: error: redefinition of `int err'
+unzip.c:778: error: `int err' previously defined here
+unzip.c:796: error: parse error before `if'
+unzip.c:798: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:798: error: redefinition of `int s'
+unzip.c:775: error: `int s' previously defined here
+unzip.c:798: error: `file' was not declared in this scope
+unzip.c:799: error: parse error before `if'
+unzip.c:805: error: syntax error before `->' token
+unzip.c:807: error: syntax error before `->' token
+unzip.c:808: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:808: error: redefinition of `int err'
+unzip.c:794: error: `int err' previously declared here
+unzip.c:808: error: `file' was not declared in this scope
+unzip.c:808: error: base operand of `->' is not a pointer
+unzip.c:809: error: base operand of `->' is not a pointer
+unzip.c:810: error: `unzlocal_GetCurrentFileInfoInternal' cannot be used as a 
+   function
+unzip.c:811: error: syntax error before `->' token
+unzip.c:824: error: `file' was not declared in this scope
+unzip.c:825: warning: `unzLocateFile' initialized and declared `extern'
+unzip.c:825: error: `int unzLocateFile' redeclared as different kind of symbol
+unzip.h:194: error: previous declaration of `int unzLocateFile(void*, const 
+   char*, int)'
+unzip.c:825: error: initializer list being treated as compound expression
+unzip.c:825: error: syntax error before `file'
+unzip.c:826: error: conflicting types for `const char*szFileName'
+unzip.c:751: error: previous declaration as `char*szFileName'
+unzip.c:827: error: redefinition of `int iCaseSensitivity'
+unzip.c:308: error: `int iCaseSensitivity' previously declared here
+unzip.c:828: error: parse error before `{' token
+unzip.c:830: error: redefinition of `int err'
+unzip.c:808: error: `int err' previously defined here
+unzip.c:841: error: parse error before `if'
+unzip.c:847: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:847: error: redefinition of `int s'
+unzip.c:798: error: `int s' previously defined here
+unzip.c:847: error: `file' was not declared in this scope
+unzip.c:848: error: parse error before `if'
+unzip.c:852: error: ISO C++ forbids declaration of `num_fileSaved' with no type
+unzip.c:852: error: conflicting types for `int num_fileSaved'
+unzip.c:837: error: previous declaration as `uLong num_fileSaved'
+unzip.c:852: error: base operand of `->' is not a pointer
+unzip.c:853: error: ISO C++ forbids declaration of `pos_in_central_dirSaved' 
+   with no type
+unzip.c:853: error: conflicting types for `int pos_in_central_dirSaved'
+unzip.c:838: error: previous declaration as `uLong pos_in_central_dirSaved'
+unzip.c:853: error: base operand of `->' is not a pointer
+unzip.c:854: error: ISO C++ forbids declaration of `cur_file_infoSaved' with no 
+   type
+unzip.c:854: error: conflicting types for `int cur_file_infoSaved'
+unzip.c:835: error: previous declaration as `unz_file_info cur_file_infoSaved'
+unzip.c:854: error: base operand of `->' is not a pointer
+unzip.c:855: error: ISO C++ forbids declaration of `cur_file_info_internalSaved
+   ' with no type
+unzip.c:855: error: conflicting types for `int cur_file_info_internalSaved'
+unzip.c:836: error: previous declaration as `unz_file_info_internal 
+   cur_file_info_internalSaved'
+unzip.c:855: error: base operand of `->' is not a pointer
+unzip.c:857: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:857: error: redefinition of `int err'
+unzip.c:830: error: `int err' previously declared here
+unzip.c:857: error: `file' was not declared in this scope
+unzip.c:857: error: `unzGoToFirstFile' cannot be used as a function
+unzip.c:859: error: parse error before `while'
+unzip.c:862: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:862: error: redefinition of `int err'
+unzip.c:857: error: `int err' previously defined here
+unzip.c:862: error: `file' was not declared in this scope
+unzip.c:863: error: `szCurrentFileName' was not declared in this scope
+unzip.c:863: error: `szCurrentFileName' was not declared in this scope
+unzip.c:864: error: `unzGetCurrentFileInfo' cannot be used as a function
+unzip.c:865: error: parse error before `if'
+unzip.c:870: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:870: error: redefinition of `int err'
+unzip.c:862: error: `int err' previously defined here
+unzip.c:870: error: `file' was not declared in this scope
+unzip.c:870: error: `unzGoToNextFile' cannot be used as a function
+unzip.c:871: error: parse error before `}' token
+unzip.c:877: error: syntax error before `->' token
+unzip.c:878: error: syntax error before `->' token
+unzip.c:879: error: syntax error before `->' token
+unzip.c:880: error: syntax error before `->' token
+unzip.c:903: error: `file' was not declared in this scope
+unzip.c:903: error: `file_pos' was not declared in this scope
+unzip.c:904: warning: `unzGetFilePos' initialized and declared `extern'
+unzip.c:904: error: `int unzGetFilePos' redeclared as different kind of symbol
+unzip.h:218: error: previous declaration of `int unzGetFilePos(void*, 
+   unz_file_pos*)'
+unzip.c:904: error: initializer list being treated as compound expression
+unzip.c:904: error: syntax error before `file'
+unzip.c:906: error: parse error before `{' token
+unzip.c:911: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:911: error: redefinition of `int s'
+unzip.c:847: error: `int s' previously defined here
+unzip.c:911: error: `file' was not declared in this scope
+unzip.c:912: error: parse error before `if'
+unzip.c:915: error: syntax error before `->' token
+unzip.c:916: error: syntax error before `->' token
+unzip.c:921: error: `file' was not declared in this scope
+unzip.c:922: warning: `unzGoToFilePos' initialized and declared `extern'
+unzip.c:922: error: `int unzGoToFilePos' redeclared as different kind of symbol
+unzip.h:222: error: previous declaration of `int unzGoToFilePos(void*, 
+   unz_file_pos*)'
+unzip.c:922: error: initializer list being treated as compound expression
+unzip.c:922: error: syntax error before `file'
+unzip.c:923: error: redefinition of `unz_file_pos*file_pos'
+unzip.c:905: error: `unz_file_pos*file_pos' previously declared here
+unzip.c:924: error: parse error before `{' token
+unzip.c:926: error: redefinition of `int err'
+unzip.c:870: error: `int err' previously defined here
+unzip.c:928: error: parse error before `if'
+unzip.c:930: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:930: error: redefinition of `int s'
+unzip.c:911: error: `int s' previously defined here
+unzip.c:930: error: `file' was not declared in this scope
+unzip.c:933: error: syntax error before `->' token
+unzip.c:934: error: syntax error before `->' token
+unzip.c:937: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:937: error: redefinition of `int err'
+unzip.c:926: error: `int err' previously declared here
+unzip.c:937: error: `file' was not declared in this scope
+unzip.c:937: error: base operand of `->' is not a pointer
+unzip.c:938: error: base operand of `->' is not a pointer
+unzip.c:939: error: `unzlocal_GetCurrentFileInfoInternal' cannot be used as a 
+   function
+unzip.c:941: error: syntax error before `->' token
+unzip.c:957: error: `piSizeVar' was not declared in this scope
+unzip.c:958: error: `poffset_local_extrafield' was not declared in this scope
+unzip.c:959: error: `psize_local_extrafield' was not declared in this scope
+unzip.c:960: error: initializer list being treated as compound expression
+unzip.c:960: error: syntax error before `*' token
+unzip.c:964: error: parse error before `{' token
+unzip.c:968: error: redefinition of `int err'
+unzip.c:937: error: `int err' previously defined here
+unzip.c:970: error: ISO C++ forbids declaration of `piSizeVar' with no type
+unzip.c:970: error: conflicting types for `int*piSizeVar'
+unzip.c:961: error: previous declaration as `uInt*piSizeVar'
+unzip.c:971: error: ISO C++ forbids declaration of `poffset_local_extrafield' 
+   with no type
+unzip.c:971: error: conflicting types for `int*poffset_local_extrafield'
+unzip.c:962: error: previous declaration as `uLong*poffset_local_extrafield'
+unzip.c:972: error: ISO C++ forbids declaration of `psize_local_extrafield' 
+   with no type
+unzip.c:972: error: conflicting types for `int*psize_local_extrafield'
+unzip.c:963: error: previous declaration as `uInt*psize_local_extrafield'
+unzip.c:974: error: parse error before `if'
+unzip.c:1030: error: syntax error before `+=' token
+unzip.c:1034: error: ISO C++ forbids declaration of `poffset_local_extrafield' 
+   with no type
+unzip.c:1034: error: redefinition of `int*poffset_local_extrafield'
+unzip.c:971: error: `int*poffset_local_extrafield' previously defined here
+unzip.c:1034: error: base operand of `->' is not a pointer
+unzip.c:1036: error: ISO C++ forbids declaration of `psize_local_extrafield' 
+   with no type
+unzip.c:1036: error: redefinition of `int*psize_local_extrafield'
+unzip.c:972: error: `int*psize_local_extrafield' previously defined here
+unzip.c:1036: error: invalid conversion from `uInt' to `int*'
+unzip.c:1038: error: syntax error before `+=' token
+unzip.c:1047: error: `file' was not declared in this scope
+unzip.c:1047: error: `method' was not declared in this scope
+unzip.c:1047: error: `level' was not declared in this scope
+unzip.c:1047: error: `raw' was not declared in this scope
+unzip.c:1047: error: `password' was not declared in this scope
+unzip.c:1048: warning: `unzOpenCurrentFile3' initialized and declared `extern'
+unzip.c:1048: error: `int unzOpenCurrentFile3' redeclared as different kind of 
+   symbol
+unzip.h:279: error: previous declaration of `int unzOpenCurrentFile3(void*, 
+   int*, int*, int, const char*)'
+unzip.c:1048: error: initializer list being treated as compound expression
+unzip.c:1048: error: syntax error before `file'
+unzip.c:1053: error: parse error before `{' token
+unzip.c:1056: error: conflicting types for `unz_s*s'
+unzip.c:930: error: previous declaration as `int s'
+unzip.c:1067: error: parse error before `if'
+unzip.c:1069: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1069: error: conflicting types for `int s'
+unzip.c:1056: error: previous declaration as `unz_s*s'
+unzip.c:1069: error: `file' was not declared in this scope
+unzip.c:1070: error: parse error before `if'
+unzip.c:1080: error: ISO C++ forbids declaration of `pfile_in_zip_read_info' 
+   with no type
+unzip.c:1080: error: conflicting types for `int pfile_in_zip_read_info'
+unzip.c:1057: error: previous declaration as `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1082: error: parse error before `if'
+unzip.c:1085: error: syntax error before `->' token
+unzip.c:1086: error: syntax error before `->' token
+unzip.c:1087: error: syntax error before `->' token
+unzip.c:1088: error: syntax error before `->' token
+unzip.c:1089: error: syntax error before `->' token
+unzip.c:1097: error: syntax error before `->' token
+unzip.c:1117: error: syntax error before `->' token
+unzip.c:1118: error: syntax error before `->' token
+unzip.c:1119: error: syntax error before `->' token
+unzip.c:1121: error: syntax error before `->' token
+unzip.c:1122: error: syntax error before `->' token
+unzip.c:1123: error: syntax error before `->' token
+unzip.c:1125: error: syntax error before `->' token
+unzip.c:1131: error: syntax error before `->' token
+unzip.c:1132: error: syntax error before `->' token
+unzip.c:1133: error: syntax error before `->' token
+unzip.c:1134: error: syntax error before `->' token
+unzip.c:1136: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:1136: error: redefinition of `int err'
+unzip.c:968: error: `int err' previously defined here
+unzip.c:1136: error: base operand of `->' is not a pointer
+unzip.c:1137: error: parse error before `if'
+unzip.c:1152: error: syntax error before `->' token
+unzip.c:1154: error: syntax error before `->' token
+unzip.c:1158: error: syntax error before `->' token
+unzip.c:1162: error: syntax error before `->' token
+unzip.c:1164: error: syntax error before `->' token
+unzip.c:1170: error: syntax error before `->' token
+unzip.c:1171: error: base operand of `->' is not a pointer
+unzip.c:1171: error: base operand of `->' is not a pointer
+unzip.c:1171: error: ISO C++ forbids declaration of `init_keys' with no type
+unzip.c:1171: error: `int init_keys' redeclared as different kind of symbol
+crypt.h:66: error: previous declaration of `void init_keys(const char*, long 
+   unsigned int*, const long unsigned int*)'
+unzip.c:1171: error: initializer list being treated as compound expression
+unzip.c:1172: error: parse error before `if'
+unzip.c:1180: error: parse error before `;' token
+unzip.c:1180: error: syntax error before `++' token
+unzip.c:1183: error: syntax error before `->' token
+unzip.c:1184: error: syntax error before `->' token
+unzip.c:1192: error: `file' was not declared in this scope
+unzip.c:1193: warning: `unzOpenCurrentFile' initialized and declared `extern'
+unzip.c:1193: error: `int unzOpenCurrentFile' redeclared as different kind of 
+   symbol
+unzip.h:252: error: previous declaration of `int unzOpenCurrentFile(void*)'
+unzip.c:1193: error: syntax error before `file'
+unzip.c:1198: error: `file' was not declared in this scope
+unzip.c:1199: warning: `unzOpenCurrentFilePassword' initialized and declared 
+   `extern'
+unzip.c:1199: error: `int unzOpenCurrentFilePassword' redeclared as different 
+   kind of symbol
+unzip.h:258: error: previous declaration of `int 
+   unzOpenCurrentFilePassword(void*, const char*)'
+unzip.c:1199: error: initializer list being treated as compound expression
+unzip.c:1199: error: syntax error before `file'
+unzip.c:1200: error: redefinition of `const char*password'
+unzip.c:1052: error: `const char*password' previously declared here
+unzip.c:1201: error: parse error before `{' token
+unzip.c:1205: error: `file' was not declared in this scope
+unzip.c:1206: warning: `unzOpenCurrentFile2' initialized and declared `extern'
+unzip.c:1206: error: `int unzOpenCurrentFile2' redeclared as different kind of 
+   symbol
+unzip.h:266: error: previous declaration of `int unzOpenCurrentFile2(void*, 
+   int*, int*, int)'
+unzip.c:1206: error: initializer list being treated as compound expression
+unzip.c:1206: error: syntax error before `file'
+unzip.c:1207: error: redefinition of `int*method'
+unzip.c:1049: error: `int*method' previously declared here
+unzip.c:1208: error: redefinition of `int*level'
+unzip.c:1050: error: `int*level' previously declared here
+unzip.c:1209: error: redefinition of `int raw'
+unzip.c:1051: error: `int raw' previously declared here
+unzip.c:1210: error: parse error before `{' token
+unzip.c:1224: error: `file' was not declared in this scope
+unzip.c:1224: error: `len' was not declared in this scope
+unzip.c:1225: warning: `unzReadCurrentFile' initialized and declared `extern'
+unzip.c:1225: error: `int unzReadCurrentFile' redeclared as different kind of 
+   symbol
+unzip.h:300: error: previous declaration of `int unzReadCurrentFile(void*, 
+   void*, unsigned int)'
+unzip.c:1225: error: initializer list being treated as compound expression
+unzip.c:1225: error: syntax error before `file'
+unzip.c:1226: error: conflicting types for `void*buf'
+unzip.c:350: error: previous declaration as `int buf'
+unzip.c:1228: error: parse error before `{' token
+unzip.c:1231: error: conflicting types for `unz_s*s'
+unzip.c:1069: error: previous declaration as `int s'
+unzip.c:1232: error: conflicting types for `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1080: error: previous declaration as `int pfile_in_zip_read_info'
+unzip.c:1233: error: parse error before `if'
+unzip.c:1235: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1235: error: conflicting types for `int s'
+unzip.c:1231: error: previous declaration as `unz_s*s'
+unzip.c:1235: error: `file' was not declared in this scope
+unzip.c:1236: error: ISO C++ forbids declaration of `pfile_in_zip_read_info' 
+   with no type
+unzip.c:1236: error: conflicting types for `int pfile_in_zip_read_info'
+unzip.c:1232: error: previous declaration as `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1236: error: base operand of `->' is not a pointer
+unzip.c:1238: error: parse error before `if'
+unzip.c:1247: error: syntax error before `->' token
+unzip.c:1249: error: syntax error before `->' token
+unzip.c:1290: error: `uReadThis' was not declared in this scope
+unzip.c:1290: error: parse error before `;' token
+unzip.c:1290: error: syntax error before `++' token
+unzip.c:1298: error: syntax error before `->' token
+unzip.c:1300: error: syntax error before `->' token
+unzip.c:1302: error: syntax error before `->' token
+unzip.c:1304: error: syntax error before `->' token
+unzip.c:1321: error: `uDoCopy' was not declared in this scope
+unzip.c:1321: error: parse error before `;' token
+unzip.c:1321: error: syntax error before `++' token
+unzip.c:1325: error: syntax error before `->' token
+unzip.c:1328: error: syntax error before `->' token
+unzip.c:1329: error: syntax error before `->' token
+unzip.c:1330: error: syntax error before `->' token
+unzip.c:1331: error: syntax error before `->' token
+unzip.c:1332: error: syntax error before `->' token
+unzip.c:1333: error: syntax error before `->' token
+unzip.c:1334: error: syntax error before `+=' token
+unzip.c:1343: error: ISO C++ forbids declaration of `uTotalOutBefore' with no 
+   type
+unzip.c:1343: error: base operand of `->' is not a pointer
+unzip.c:1344: error: ISO C++ forbids declaration of `bufBefore' with no type
+unzip.c:1344: error: conflicting types for `int bufBefore'
+unzip.c:1339: error: previous declaration as `const Bytef*bufBefore'
+unzip.c:1344: error: base operand of `->' is not a pointer
+unzip.c:1352: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:1352: error: redefinition of `int err'
+unzip.c:1136: error: `int err' previously defined here
+unzip.c:1352: error: base operand of `->' is not a pointer
+unzip.c:1354: error: parse error before `if'
+unzip.c:1357: error: ISO C++ forbids declaration of `uTotalOutAfter' with no 
+   type
+unzip.c:1357: error: base operand of `->' is not a pointer
+unzip.c:1358: error: ISO C++ forbids declaration of `uOutThis' with no type
+unzip.c:1358: error: conflicting types for `int uOutThis'
+unzip.c:1340: error: previous declaration as `uLong uOutThis'
+unzip.c:1360: error: syntax error before `->' token
+unzip.c:1364: error: syntax error before `->' token
+unzip.c:1367: error: syntax error before `+=' token
+unzip.c:1385: error: `file' was not declared in this scope
+unzip.c:1386: warning: `unztell' initialized and declared `extern'
+unzip.c:1386: error: `long int unztell' redeclared as different kind of symbol
+unzip.h:314: error: previous declaration of `long int unztell(void*)'
+unzip.c:1386: error: syntax error before `file'
+unzip.c:1389: error: conflicting types for `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1236: error: previous declaration as `int pfile_in_zip_read_info'
+unzip.c:1390: error: parse error before `if'
+unzip.c:1392: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1392: error: redefinition of `int s'
+unzip.c:1235: error: `int s' previously defined here
+unzip.c:1392: error: `file' was not declared in this scope
+unzip.c:1393: error: ISO C++ forbids declaration of `pfile_in_zip_read_info' 
+   with no type
+unzip.c:1393: error: conflicting types for `int pfile_in_zip_read_info'
+unzip.c:1389: error: previous declaration as `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1393: error: base operand of `->' is not a pointer
+unzip.c:1395: error: parse error before `if'
+unzip.c:1405: error: `file' was not declared in this scope
+unzip.c:1406: warning: `unzeof' initialized and declared `extern'
+unzip.c:1406: error: `int unzeof' redeclared as different kind of symbol
+unzip.h:319: error: previous declaration of `int unzeof(void*)'
+unzip.c:1406: error: syntax error before `file'
+unzip.c:1409: error: conflicting types for `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1393: error: previous declaration as `int pfile_in_zip_read_info'
+unzip.c:1410: error: parse error before `if'
+unzip.c:1412: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1412: error: redefinition of `int s'
+unzip.c:1392: error: `int s' previously defined here
+unzip.c:1412: error: `file' was not declared in this scope
+unzip.c:1413: error: ISO C++ forbids declaration of `pfile_in_zip_read_info' 
+   with no type
+unzip.c:1413: error: conflicting types for `int pfile_in_zip_read_info'
+unzip.c:1409: error: previous declaration as `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1413: error: base operand of `->' is not a pointer
+unzip.c:1415: error: parse error before `if'
+unzip.c:1438: error: `file' was not declared in this scope
+unzip.c:1439: warning: `unzGetLocalExtrafield' initialized and declared 
+   `extern'
+unzip.c:1439: error: `int unzGetLocalExtrafield' redeclared as different kind 
+   of symbol
+unzip.h:324: error: previous declaration of `int unzGetLocalExtrafield(void*, 
+   void*, unsigned int)'
+unzip.c:1439: error: initializer list being treated as compound expression
+unzip.c:1439: error: syntax error before `file'
+unzip.c:1440: error: redefinition of `void*buf'
+unzip.c:1226: error: `void*buf' previously declared here
+unzip.c:1441: error: redefinition of `unsigned int len'
+unzip.c:1227: error: `unsigned int len' previously declared here
+unzip.c:1442: error: parse error before `{' token
+unzip.c:1444: error: conflicting types for `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1413: error: previous declaration as `int pfile_in_zip_read_info'
+unzip.c:1448: error: parse error before `if'
+unzip.c:1450: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1450: error: redefinition of `int s'
+unzip.c:1412: error: `int s' previously defined here
+unzip.c:1450: error: `file' was not declared in this scope
+unzip.c:1451: error: ISO C++ forbids declaration of `pfile_in_zip_read_info' 
+   with no type
+unzip.c:1451: error: conflicting types for `int pfile_in_zip_read_info'
+unzip.c:1444: error: previous declaration as `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1451: error: base operand of `->' is not a pointer
+unzip.c:1453: error: parse error before `if'
+unzip.c:1456: error: ISO C++ forbids declaration of `size_to_read' with no type
+unzip.c:1456: error: conflicting types for `int size_to_read'
+unzip.c:1446: error: previous declaration as `uLong size_to_read'
+unzip.c:1456: error: base operand of `->' is not a pointer
+unzip.c:1457: error: base operand of `->' is not a pointer
+unzip.c:1459: error: parse error before `if'
+unzip.c:1489: error: `file' was not declared in this scope
+unzip.c:1490: warning: `unzCloseCurrentFile' initialized and declared `extern'
+unzip.c:1490: error: `int unzCloseCurrentFile' redeclared as different kind of 
+   symbol
+unzip.h:294: error: previous declaration of `int unzCloseCurrentFile(void*)'
+unzip.c:1490: error: syntax error before `file'
+unzip.c:1494: error: conflicting types for `unz_s*s'
+unzip.c:1450: error: previous declaration as `int s'
+unzip.c:1495: error: conflicting types for `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1451: error: previous declaration as `int pfile_in_zip_read_info'
+unzip.c:1496: error: parse error before `if'
+unzip.c:1498: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1498: error: conflicting types for `int s'
+unzip.c:1494: error: previous declaration as `unz_s*s'
+unzip.c:1498: error: `file' was not declared in this scope
+unzip.c:1499: error: ISO C++ forbids declaration of `pfile_in_zip_read_info' 
+   with no type
+unzip.c:1499: error: conflicting types for `int pfile_in_zip_read_info'
+unzip.c:1495: error: previous declaration as `
+   file_in_zip_read_info_s*pfile_in_zip_read_info'
+unzip.c:1499: error: base operand of `->' is not a pointer
+unzip.c:1501: error: parse error before `if'
+unzip.c:1514: error: syntax error before `->' token
+unzip.c:1518: error: syntax error before `->' token
+unzip.c:1521: error: syntax error before `->' token
+unzip.c:1532: error: `file' was not declared in this scope
+unzip.c:1532: error: `uSizeBuf' was not declared in this scope
+unzip.c:1533: warning: `unzGetGlobalComment' initialized and declared `extern'
+unzip.c:1533: error: `int unzGetGlobalComment' redeclared as different kind of 
+   symbol
+unzip.h:168: error: previous declaration of `int unzGetGlobalComment(void*, 
+   char*, long unsigned int)'
+unzip.c:1533: error: initializer list being treated as compound expression
+unzip.c:1533: error: syntax error before `file'
+unzip.c:1534: error: redefinition of `char*szComment'
+unzip.c:755: error: `char*szComment' previously declared here
+unzip.c:1536: error: parse error before `{' token
+unzip.c:1538: error: conflicting types for `unz_s*s'
+unzip.c:1498: error: previous declaration as `int s'
+unzip.c:1540: error: parse error before `if'
+unzip.c:1542: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1542: error: conflicting types for `int s'
+unzip.c:1538: error: previous declaration as `unz_s*s'
+unzip.c:1542: error: `file' was not declared in this scope
+unzip.c:1544: error: ISO C++ forbids declaration of `uReadThis' with no type
+unzip.c:1544: error: conflicting types for `int uReadThis'
+unzip.c:1539: error: previous declaration as `uLong uReadThis'
+unzip.c:1545: error: parse error before `if'
+unzip.c:1564: error: `file' was not declared in this scope
+unzip.c:1565: warning: `unzGetOffset' initialized and declared `extern'
+unzip.c:1565: error: `uLong unzGetOffset' redeclared as different kind of 
+   symbol
+unzip.h:343: error: previous declaration of `uLong unzGetOffset(void*)'
+unzip.c:1565: error: syntax error before `file'
+unzip.c:1571: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1571: error: redefinition of `int s'
+unzip.c:1542: error: `int s' previously defined here
+unzip.c:1571: error: `file' was not declared in this scope
+unzip.c:1572: error: parse error before `if'
+unzip.c:1580: error: `file' was not declared in this scope
+unzip.c:1580: error: `pos' was not declared in this scope
+unzip.c:1581: warning: `unzSetOffset' initialized and declared `extern'
+unzip.c:1581: error: `int unzSetOffset' redeclared as different kind of symbol
+unzip.h:346: error: previous declaration of `int unzSetOffset(void*, long 
+   unsigned int)'
+unzip.c:1581: error: initializer list being treated as compound expression
+unzip.c:1581: error: syntax error before `file'
+unzip.c:1583: error: parse error before `{' token
+unzip.c:1585: error: redefinition of `int err'
+unzip.c:1352: error: `int err' previously defined here
+unzip.c:1587: error: parse error before `if'
+unzip.c:1589: error: ISO C++ forbids declaration of `s' with no type
+unzip.c:1589: error: redefinition of `int s'
+unzip.c:1571: error: `int s' previously defined here
+unzip.c:1589: error: `file' was not declared in this scope
+unzip.c:1591: error: syntax error before `->' token
+unzip.c:1592: error: syntax error before `->' token
+unzip.c:1593: error: ISO C++ forbids declaration of `err' with no type
+unzip.c:1593: error: redefinition of `int err'
+unzip.c:1585: error: `int err' previously declared here
+unzip.c:1593: error: `file' was not declared in this scope
+unzip.c:1593: error: base operand of `->' is not a pointer
+unzip.c:1594: error: base operand of `->' is not a pointer
+unzip.c:1595: error: `unzlocal_GetCurrentFileInfoInternal' cannot be used as a 
+   function
+unzip.c:1596: error: syntax error before `->' token
+unzip.c: In function `void __static_initialization_and_destruction_0(int, int)
+   ':
+unzip.c:354: warning: statement with no effect
+unzip.c:970: warning: statement with no effect
+unzip.c:971: warning: statement with no effect
+unzip.c:972: warning: statement with no effect
+unzip.c:1358: warning: statement with no effect
+unzip.c:1544: warning: statement with no effect
+unzip.c: At top level:
+crypt.h:36: warning: `int decrypt_byte(long unsigned int*, const long unsigned 
+   int*)' defined but not used
+crypt.h:66: warning: `void init_keys(const char*, long unsigned int*, const 
+   long unsigned int*)' defined but not used
+unzip.c:166: warning: `int unzlocal_getByte(const zlib_filefunc_def*, void*, 
+   int*)' declared `static' but never defined
+unzip.c:196: warning: `int unzlocal_getShort(const zlib_filefunc_def*, void*, 
+   uLong*)' declared `static' but never defined
+unzip.c:202: warning: `int unzlocal_getShort' defined but not used
+unzip.c:224: warning: `int unzlocal_getLong(const zlib_filefunc_def*, void*, 
+   uLong*)' declared `static' but never defined
+unzip.c:230: warning: `int unzlocal_getLong' defined but not used
+unzip.c:263: warning: `int strcmpcasenosensitive_internal' defined but not used
+unzip.c:327: warning: `uLong unzlocal_SearchCentralDir(const 
+   zlib_filefunc_def*, void*)' declared `static' but never defined
+unzip.c:549: warning: `int unzlocal_DosDateToTmuDate' defined but not used
+unzip.c:566: warning: `int unzlocal_GetCurrentFileInfoInternal(void*, 
+   unz_file_info*, unz_file_info_internal*, char*, long unsigned int, void*, 
+   long unsigned int, char*, long unsigned int)' declared `static' but never 
+   defined
+unzip.c:960: warning: `int unzlocal_CheckCurrentFileCoherencyHeader' defined 
+   but not used
+ioapi.c:68: error: `opaque' was not declared in this scope
+ioapi.c:68: error: `filename' was not declared in this scope
+ioapi.c:68: error: `mode' was not declared in this scope
+ioapi.c:69: error: `void*fopen_file_func' redeclared as different kind of 
+   symbol
+ioapi.c:32: error: previous declaration of `void* fopen_file_func(void*, const 
+   char*, int)'
+ioapi.c:69: error: initializer list being treated as compound expression
+ioapi.c:69: error: syntax error before `opaque'
+ioapi.c:72: error: parse error before `{' token
+ioapi.c:75: error: parse error before `if'
+ioapi.c:90: error: `opaque' was not declared in this scope
+ioapi.c:90: error: `stream' was not declared in this scope
+ioapi.c:90: error: `buf' was not declared in this scope
+ioapi.c:90: error: `size' was not declared in this scope
+ioapi.c:91: error: `uLong fread_file_func' redeclared as different kind of 
+   symbol
+ioapi.c:37: error: previous declaration of `uLong fread_file_func(void*, void*, 
+   void*, long unsigned int)'
+ioapi.c:91: error: initializer list being treated as compound expression
+ioapi.c:91: error: syntax error before `opaque'
+ioapi.c:95: error: parse error before `{' token
+ioapi.c:97: error: ISO C++ forbids declaration of `ret' with no type
+ioapi.c:98: error: parse error before `return'
+ioapi.c:102: error: `opaque' was not declared in this scope
+ioapi.c:103: error: `uLong fwrite_file_func' redeclared as different kind of 
+   symbol
+ioapi.c:43: error: previous declaration of `uLong fwrite_file_func(void*, 
+   void*, const void*, long unsigned int)'
+ioapi.c:103: error: initializer list being treated as compound expression
+ioapi.c:103: error: syntax error before `opaque'
+ioapi.c:104: error: redefinition of `void*stream'
+ioapi.c:92: error: `void*stream' previously declared here
+ioapi.c:105: error: conflicting types for `const void*buf'
+ioapi.c:93: error: previous declaration as `void*buf'
+ioapi.c:106: error: redefinition of `uLong size'
+ioapi.c:94: error: `uLong size' previously declared here
+ioapi.c:107: error: parse error before `{' token
+ioapi.c:109: error: ISO C++ forbids declaration of `ret' with no type
+ioapi.c:109: error: redefinition of `int ret'
+ioapi.c:97: error: `int ret' previously declared here
+ioapi.c:110: error: parse error before `return'
+ioapi.c:113: error: `opaque' was not declared in this scope
+ioapi.c:114: error: `long int ftell_file_func' redeclared as different kind of 
+   symbol
+ioapi.c:49: error: previous declaration of `long int ftell_file_func(void*, 
+   void*)'
+ioapi.c:114: error: initializer list being treated as compound expression
+ioapi.c:114: error: syntax error before `opaque'
+ioapi.c:115: error: redefinition of `void*stream'
+ioapi.c:104: error: `void*stream' previously declared here
+ioapi.c:116: error: parse error before `{' token
+ioapi.c:118: error: ISO C++ forbids declaration of `ret' with no type
+ioapi.c:118: error: redefinition of `int ret'
+ioapi.c:109: error: `int ret' previously declared here
+ioapi.c:119: error: parse error before `return'
+ioapi.c:122: error: `opaque' was not declared in this scope
+ioapi.c:122: error: `offset' was not declared in this scope
+ioapi.c:122: error: `origin' was not declared in this scope
+ioapi.c:123: error: `long int fseek_file_func' redeclared as different kind of 
+   symbol
+ioapi.c:53: error: previous declaration of `long int fseek_file_func(void*, 
+   void*, long unsigned int, int)'
+ioapi.c:123: error: initializer list being treated as compound expression
+ioapi.c:123: error: syntax error before `opaque'
+ioapi.c:124: error: redefinition of `void*stream'
+ioapi.c:115: error: `void*stream' previously declared here
+ioapi.c:127: error: parse error before `{' token
+ioapi.c:129: error: conflicting types for `long int ret'
+ioapi.c:118: error: previous declaration as `int ret'
+ioapi.c:130: error: parse error before `switch'
+ioapi.c:143: error: ISO C++ forbids declaration of `ret' with no type
+ioapi.c:143: error: conflicting types for `int ret'
+ioapi.c:129: error: previous declaration as `long int ret'
+ioapi.c:144: error: `fseek_origin' was not declared in this scope
+ioapi.c:144: error: ISO C++ forbids declaration of `fseek' with no type
+ioapi.c:144: error: `int fseek' redeclared as different kind of symbol
+/spoon/system/source/include/unix/stdio.h:101: error: previous declaration of `
+   int fseek(FILE*, long int, int)'
+ioapi.c:144: error: initializer list being treated as compound expression
+ioapi.c:145: error: parse error before `return'
+ioapi.c:148: error: `opaque' was not declared in this scope
+ioapi.c:149: error: `int fclose_file_func' redeclared as different kind of 
+   symbol
+ioapi.c:59: error: previous declaration of `int fclose_file_func(void*, void*)'
+ioapi.c:149: error: initializer list being treated as compound expression
+ioapi.c:149: error: syntax error before `opaque'
+ioapi.c:150: error: redefinition of `void*stream'
+ioapi.c:124: error: `void*stream' previously declared here
+ioapi.c:151: error: parse error before `{' token
+ioapi.c:153: error: ISO C++ forbids declaration of `ret' with no type
+ioapi.c:153: error: redefinition of `int ret'
+ioapi.c:143: error: `int ret' previously defined here
+ioapi.c:154: error: parse error before `return'
+ioapi.c:157: error: `opaque' was not declared in this scope
+ioapi.c:158: error: `int ferror_file_func' redeclared as different kind of 
+   symbol
+ioapi.c:63: error: previous declaration of `int ferror_file_func(void*, void*)'
+ioapi.c:158: error: initializer list being treated as compound expression
+ioapi.c:158: error: syntax error before `opaque'
+ioapi.c:159: error: redefinition of `void*stream'
+ioapi.c:150: error: `void*stream' previously declared here
+ioapi.c:160: error: parse error before `{' token
+ioapi.c:162: error: ISO C++ forbids declaration of `ret' with no type
+ioapi.c:162: error: redefinition of `int ret'
+ioapi.c:153: error: `int ret' previously declared here
+ioapi.c:163: error: parse error before `return'
+ioapi.c:166: error: `pzlib_filefunc_def' was not declared in this scope
+ioapi.c:167: error: variable or field `fill_fopen_filefunc' declared void
+ioapi.c:167: error: `int fill_fopen_filefunc' redeclared as different kind of 
+   symbol
+ioapi.h:60: error: previous declaration of `void 
+   fill_fopen_filefunc(zlib_filefunc_def*)'
+ioapi.c:167: error: syntax error before `*' token
+ioapi.c:170: error: syntax error before `->' token
+ioapi.c:171: error: syntax error before `->' token
+ioapi.c:172: error: syntax error before `->' token
+ioapi.c:173: error: syntax error before `->' token
+ioapi.c:174: error: syntax error before `->' token
+ioapi.c:175: error: syntax error before `->' token
+ioapi.c:176: error: syntax error before `->' token
+ioapi.c: In function `void __static_initialization_and_destruction_0(int, int)
+   ':
+ioapi.c:143: warning: statement with no effect
+make: *** [all] Error 1

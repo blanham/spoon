@@ -1,0 +1,4 @@
+ARCH_BASE=i686
+ARCH_CFLAGS=-march=i686 -mcpu=i686 -mmmx -msse 
+
+

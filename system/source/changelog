@@ -1,0 +1,1212 @@
+
+21-11-2005
+
+	. Improved kernel code and SMP initialization, again.
+
+12-11-2005
+
+	. Improved kernel code and SMP initialization.
+
+15-11-2005
+
+	. Improved liballoc by using a list of free
+	  pages.
+
+10-11-2005
+
+	. Added in support to the kernel for the liballoc
+	  routines. Replaced the kernel memory routines
+	  with it.
+
+8-11-2005
+	
+	. Update of liballoc and made it much better.
+
+17-10-2005
+
+	. Ripped liballoc out of the libUNIX to make it
+	  stand on it's own. I will incorporate it into
+	  other parts of the system.
+
+
+14-10-2005
+
+	. Improved memory management in the kernel.
+
+
+11-10-2005
+
+	. Applied the PS2Driver patch from Paul Dufresne
+	  and updated via darcs.
+	. Modified the backup.sh script to ignore the
+	  _darcs directory.
+	. Fixed the libvfs.a cleanup.
+	. Modified kernel atomic acquire to be -O1+ compatible.
+	. Credits addition.
+	. Script execution permissions fix.
+	. make_iso.pl fix to ignore _darcs directory.
+	. Fixed the collections/List class to return the
+	  actual pointers if get() was given 0 or n-1
+	  instead of the data holders themselves.
+
+
+
+10-10-2005
+
+	. Initial darcs set up.
+
+29-09-2005
+
+	. API improvements.
+	. Created the Container class and the ThreadLock 
+	  class.
+
+
+27-09-2005
+
+	. Beginnings of a kernel testing application.
+	. Documentation enhancements.
+
+
+26-09-2005
+
+	. Drastic changes to the shared memory architecture
+	  of the kernel.
+
+23-09-2005
+
+	. Fixed to the storage/Directory class to fix
+	  the memory issue with the static address -
+	  causing the commander to mess up.
+	. Improved the commander a bit.
+	. Added curved windows to the GUI server.
+
+
+20-09-2005
+
+	. Removed kprintf from the kernel.
+	. Fully integerated and finished the dmesg
+	  functions of the kernel.
+	. Created the commander application which will
+	  be the file browser.
+	. Started improving the spoon IO classes
+	  with IOStreams, BufferedReaders, etc.
+	. Fixed the Window pulsers.
+	. Fixed the ActiveWindow thing in the Windows
+	  when it wasn't being set for embedded
+	  View more than 1 layer down.
+
+
+
+19-09-2005
+
+	. Added module-line environment variables.
+	. Added module-line environment hosts.
+	. Updated the param help feature.
+	. Removed the disable/enable_switching code
+	  from the kernel.
+	. Updated the RW locks to be atomic without
+	  using spinlocks.
+	. Added the dmesg support.
+	. Fixed some environment variable problems in
+	  the libkernel.
+	. Added the dmesg function to the shell.
+
+
+16-09-2005
+	
+	. Faster memcpy in the kernel.
+	. Modified the IRQ handling slightly.
+	. Created the ASSERT macro in the kernel.
+	. Adding ASSERTS into the kernel.
+	. Converted a few small functions to MACROS
+
+
+
+15-09-2005
+
+	. Modified the way that IRQ's are handled in the kernel.
+
+
+06-09-2005
+
+	. Fixed some more reg_reset's in the ATA/ATAPI nodes.
+
+
+
+01-09-2005
+
+	. Deleted the clock, loader and coolness apps.
+	. Modified the PopupMenu to not require a Rect on
+	  construction.
+	. Modified the desktop to include a background view.
+	. Modified the desktop to change DeskBar to DesktopBar. 
+
+
+31-08-2005
+
+	. Integrated the desktop's SystemMenuWindow and
+	  SystemMenuItem into the libspoon as PopupMenu
+	  and MenuItem.
+	. Added Popup() and InvalidatePopup into the 
+	  interface/View's.
+	. Hooked the MOUSE_UP event to display the popup
+	  if the right mouse button is clicked.
+
+30-08-2005
+
+	. Fixed the ATAPI/ATA problem. Basically, sub_select
+	  was only selecting the device if the command was
+	  incorrect. So, the correct device was never being
+	  selected that that caused infinite loops. NOTE: Must
+	  get the system_time system call to update the
+	  system time.
+	. Added SetPulseRate(), Pulsed() methods to the Window.
+	. Added Pulsed() to the View.
+	. Added AddPulseChild(), RemovePulseChild() to the Window.
+	. Created a base/Pulser class.
+	. Gave the Window a Pulser class.
+	. Added Pulsed() hooks to the desktop application for the
+	  ClockView and the MemView.
+
+29-08-2005
+
+	. Broke the translators out of the libspoon into 
+	  libtranslators. Now it works.
+	. Improved the desktop application.
+	. Added Resize support to the Window and gui_server.
+	. Almost fixed the ATA/ATAPI device problem with reg_reset
+	  being given an invalid device to select after
+	  reset.
+	. Fixed a SYNC issue with the GUI server and the 
+	  mouse cursor. Didn't hide/show.
+	
+
+28-08-2005
+
+	. ImageTranslator and PNGTranslator - doesn't work.
+	. Improved the desktop application.
+
+
+25-08-2005
+
+	. Fixing up some of the ports stuff.
+
+24-08-2005
+
+	. Moved backup.sh script to the scripts directory.
+	. Cleaning up documentation structure and config files.
+
+
+23-08-2005
+
+	. Created a backup.sh script.
+	. Modified the libkernel to be source-tree independant.
+
+22-08-2005
+
+	. Begun work on creating a PNG Translator.
+
+21-08-2005
+
+	. Improved desktop application with deskbar.
+	. libpng works.
+	. Improved GUI server.
+	. Implemented more UNIX functions. gmtime, etc.
+	. Made the clock obsolete with the desktop.
+	. Created a nice interface/Bitmap class.
+	. Made Window::AddChild virtual.
+	. Added Window::ResizeTo( int width, int height );
+
+17-08-2005
+
+	. setjmp, longjmp support.
+	. atof implemented.
+	. strtod implemented.
+
+
+16-08-2005
+
+	. Improvements on the GUI server and Window
+	  classes to add correct transparency.
+	. Improvements on the GUI server and Window
+	  classes to add desktop window support.
+	. Created a desktop application which installs
+	  itself as a desktop and doesn't do much 
+	  else.
+	. Ported libpng again. It needs a few more
+	  functions to work properly.
+	. Added a pngview app. It might work.
+	. Fixed up the UNIX memcpy thanks to giszo.
+
+
+15-08-2005
+
+	. Improvements on the UNIX library and creation of a 
+	  good file support architecture.
+	. Modifications of kernel calls to include a "smk_"
+	  prefix. 
+	. Fixing up all the applications and libraries to use
+	  the new "smk_" prefix stuff.
+
+11-08-2005
+
+	. More dc99 work.
+
+10-08-2005
+
+	. Renamed libc to dc99 and I've implemented a lot of the
+	  the standard C99 library.
+	. Modified the way the libraries are built.
+	. Incorporated the libz/zlib library into the tree.
+	. Added some of the example code from the libz library
+	  into the apps directory.
+	. Added environment variable support into the kernel.
+	. Modified the libkernel to support the environment system
+	  calls.
+	. Modified the PS2 mouse driver which was causing trouble
+	  and not working on a lot of systems. The new code is
+	  cool and supports 5 buttons and a wheel.
+
+
+28-07-2005
+
+	. A working DJFS file system.
+
+
+25-07-2005
+
+	. Added transparency into the GUI server.
+	. Created a little test application "coolness" for testing
+	  most of the new stuff.
+	. Fixed the ATAPI problem which was actually a cmos_time
+	  problem.
+	. Removed the i386 branch.
+
+
+24-07-2005
+
+	. Improved the ConsoleView to sync correctly.
+	. Improved the syncing of the GUI server.
+	. Improved the Region class to be faster and more accurate.
+	. Fixed some bugs in the Rect class that I introduced yesterday.
+	. Fixed the GUI server up a little.
+	. Removed the gui_* functions from the shell.
+
+23-07-2005
+
+	. Further GUI enhancements.
+	. Added a Sync() method to a View.
+	. Modified the Sync() methods to support an area to sync.
+	. Brought the old Be Region class into the spoon library.
+
+22-07-2005
+
+	. Major enhancements to the GuiServer. 
+	. 1 cursor for MOUSE_UP. 1 cursor for MOUSE_DOWN.
+	. Moving windows.
+	. Titled/Bordered/Unframed windows.
+	. Made the ClockApp an Unframed Window.
+
+21-07-2005
+
+	. Some really cool work on the GuiServer.
+	. Fixed the List class so that the last added
+	  item is now the last in the List.
+	. Some changes to the interface classes.
+	. Some changes to the Rect class.
+
+19-07-2005
+
+	. The HashTable is now a Collection object. 
+	. Further documentation.
+
+18-07-2005
+
+	. Implemented a new documenation system: doxygen. viola.
+	. Modified the Collection classes.
+
+
+14-07-2005
+
+	. Cleaning up the spoon libraries a little.
+
+
+10-07-2005
+
+	. Initial Collection-ized List class.
+
+08-07-2005
+
+	. Moved the HashTable and List class to the collections directory.
+	. Broke the Driver up into a IRQHandler base class and an
+	  application.
+	. Removed the message from the documentation build.sh system.
+
+05-07-2005
+
+	. Updated the PCI code in the kernel with giszo's PCI code.
+	. Fixed the GDT code assembler jumping, allowing O2 kernel
+	  optimizations.
+
+01-07-2005
+
+	. Improving the gui_server. 
+
+
+14-06-2005
+
+	. Added some additional commands to the shell: gui_getdrivers,
+	  gui_setdesktopdriver, gui_deletedesktop.
+	. Added support into the GUIControl class for additional commands.
+	. Added support into the VideoDriver class to return LFB information.
+	. Finished deletion of desktops in the gui_server.
+	. Created a textual video driver which will thunk a graphical
+	  screen to a normal text screen. 
+	. snprintf conio to bufcon correction in libc
+	. format string error in arch/i686/atomic for "COMING FROM" stuff. 
+
+
+13-06-2005
+
+	. Added initial desktop support to the gui_server.
+	. Added two commands to the gui_server: gui_getdesktops,
+	  gui_createdesktop.
+
+
+12-06-2005
+
+	. A lot of work done on the gui_server.
+	. Added support for gui_server interaction using
+	  the GUIControl class. It can list and set
+	  modes.
+	. Fixed a few locking problems in the kernel.
+	. Added some shell functions for the gui control:
+	  gui_getmodes and gui_setmode.
+
+
+06-06-2005
+
+	. Yay. Found a damn irritating problem that had messed
+	  me around for a few weeks.
+	. Fixed the cleanup nicely.
+
+
+26-05-2005
+
+	. Double-checked the garbage collector and waits. Seems good.
+	. Finished the thread clean-up functions.
+
+
+22-05-2005
+
+	. Fixed the kernel garbage collector up a little. Needs work.
+	. Fixed the waits in the kernel.
+
+
+15-05-2005
+
+	. Lots of kernel changes.
+	. Added a spit() system call for debugging help.
+	. F11 in the kbd driver now calls spit.
+
+11-05-2005
+
+	. Extensive locking changes in kernel. 
+	. rwlock changes in kernel.
+
+
+10-05-2005
+
+	. Started to modify the locking in the kernel.
+	. arch/i686/atomic.c now has a 20 second timeout on acquiring.
+
+
+08-05-2005
+
+	. Implemented kernel hash tables and reader-writer locks.
+	. The process.c file makes use of the new structures and
+	  locks.
+	. The threads.c file makes use of hash tables.
+	. Fixed the VideoDriver problem.  Messenger was created 
+	  in a seperate thread to the one it was being used in
+	  and so the port belonged to the creator thread. Messages
+	  were being returned to the wrong thread.
+
+
+07-05-2005
+
+	. Added a FreeAll to the List class. Saves a lot of code.
+	. Improved the gui_server.
+	. Added a HashTable class.
+
+
+05-05-2005
+
+	. Added a history function to the ConsoleApplication
+	  class.  You can now press up and down and get to
+	  where you want to go.
+	. Added some preset history into the shell to save
+	  my hands.
+	. Fixed an IRQ bug in the kernel which caused the
+	  thread state to be lost during the switch_IRQ
+	  stuff.
+	. Moved the sched_remove call from the scheduler stuff
+	  into the signal_gc function in the kernel.
+
+
+28-04-2005
+
+	. Ridiculous logging in the ATAPI driver.
+
+
+27-04-2005
+
+	. There are now seperate hard and soft entries 
+	  into the scheduler as opposed to the single
+	  one which guessed at IRQ ack's. Geez.. 
+	. Modified the libraries to call the correct
+	  kernel entry when releasing timeslices.
+	. Reviewing the ATAPI driver.
+	. Incorporated the mem_free/mem_alloc syscall
+	  into one with a flag to indicate intention.
+	. Added a memory call to request direct access 
+	  to a physical location of memory. mem_map.
+	. Renamed the send/receive/etc pulse and message
+	  functions to be more consistent.
+
+
+24-04-2005
+
+	. A pause added to the outw_p function in the i386 
+	  and i686 libkernel libraries. (giszo)
+	. A new make_releases.pl script which does per-arch
+	  release building.
+	. Modified the configure script to suppport --command.
+	. Fixes to DJFS.
+
+
+
+23-04-2005
+
+	. Huge bug fixes in paging.c (delete vmmap) and
+	  in exceptions.c in the kernel (i386 and i686). 
+	  Thanks to giszo for pointing it out.
+	. Also, syscall (IRQ|THREE) was not returning
+	  a valid code.
+
+
+19-04-2005
+
+	. Fixed the terminal app a little.
+	. Fixed the library/kernel start routine.
+
+
+18-04-2005
+
+	. Added stat support for devices.
+	. Added stat support to the ramdisk
+	. Made the ramdisk accept 1 param for MB size.
+	. Made DJFS revert back to int's.  I won't be
+	  using more than 1 terrabyte.
+	. The shell now accepts the & character for background
+	  starting of processes.
+
+
+17-04-2005
+
+	. Imported the mkfs.djfs app into the tree.
+	. Removed the default disk image from the ramdisk
+	  driver.
+	. Begun implementing the Stat call for devices.
+
+
+14-04-2005
+
+	. Fixed the atomic spinlocks in the i686
+	  and i383 branches for the kernel.
+	. Added a touch, rm, rmdir and cp function 
+	  to the shell.
+
+12-04-2005
+
+	. Added an initial DJFS file system.
+	. Added a mkfs tool.
+	. Brought the ramdisk back into the build.
+	. Modified the FileSystem objects to support
+	  extra commands: mkdir, rmdir, rm, etc.
+	. Added a mkdir command into the shell.
+	. Modified the Directory class to support mkdir.
+	. mkdir works through the VFS and DJFS
+	. Added in the file writing to the VFS.
+	. Added a test command to the shell to write
+	  files.
+
+
+11-04-2005
+
+	. Brought the documentation into the tree.
+	. Fixed up the documentation.
+
+
+10-04-2005
+
+	. Added a kernel configure.pl script.
+	. Added a system configure.pl script.
+	. Created a stats and limits structure definitions 
+	  for the future additions.
+	. Added the vendor ID's and device ID's for the
+	  vmware drivers into the driver.map
+	. Moved my memory allocation implementations 
+	  (malloc,free,etc) into the kernel.
+	. Spread the malloc calls into the kernel. Should
+	  save some memory.
+	. Added an athlon configuration setting.
+	. Fixed an FPU math save space alignment issue which
+	  appeared with the malloc integration.
+
+
+09-04-2005
+	
+	. Added the per-process round robbin scheduler. It
+	  works a lot better.
+
+
+07-04-2005
+
+	. FPU bug fixes for MMX, SSE and SSE2.
+
+05-04-2005
+
+	. Created a VideoDriver class.
+	. Brought the video driver directory back in.
+	. Created a vmware video driver directory.
+	. Changes to the file system layout.
+	. Modifications to the make_iso/floppy scripts.
+	. Addition of a builds directory to drop the floppy.img
+	  and cdrom.iso in.
+
+
+03-04-2005
+
+	. Added a "release_timeslice" system call, instead 
+	  of the userland int call. Both may be used.
+	. Modifying the make system of the kernel and source
+	  tree to support multiple architectures.
+	. Removed FPU support from the i386 kernel branch.
+
+
+29-03-2005
+
+	. Changes to the kernel. 
+	. Initial ioperms implementation.
+	. Implemented the stack trace from Christopher Nelson.
+
+
+28-03-2005
+
+	. Huge! kernel changes completed now.
+	. Added -Wall to the compilation flags.
+	. Cleaning up code.
+
+11-03-2005
+
+	. Lots of ongoing changes to the kernel.
+	. Fixed that silly thing about the mouse not working 
+	  near the top of the screen. Input server
+	  was checking for the F1..12 keys.
+
+
+03-03-2005
+
+	. Minor touchups to the class libraries.
+
+02-03-2005
+
+	. Added some CPU detection code into the kernel.
+
+27-02-2005
+
+	. Fixed a mistake in the process finishing which wouldn't
+	  let the garbage collector collect the dead processes.
+	. CRASHED threads and processes get cleaned up now and
+	  waiting processes start up again.
+	. Improvements to the gui_server.
+	. Modifications to the mpeg2decode app to support a buffered
+	  window. I hope it looks okay on slower VESA cards.
+	. The mpeg2decode now delays the Window init until it knows
+	  the size of the movie.
+	. Added a new "clock" app which displays the time all the 
+	  time.
+	. Modified the floppy.conf to load the clock app.
+	. Modified the clock program to include a "run" window/button.
+	  
+	
+
+26-02-2005
+
+	. Added a new system call to bulk set/get port masks.
+	. Fixed a flaw in the kernel's release_port call which
+	  would drop random messages and pulses. 
+
+
+24-02-2005
+
+	. Cleanups to my changes made yesterday.
+	. Tweaks and stuff.
+	. Almost done with the kernel garbage collector.
+
+
+23-02-2005
+
+	. Lots of changes to the kernel internals.
+
+22-02-2005
+	
+	. Oh! The Messenger was receiving the initial
+	  pulse from the init application. So, that was
+	  interesting.
+	  That's why my Windows weren't working anymore.
+
+
+21-02-2005
+
+	. Some work on making it all more safe.
+
+
+20-02-2005
+
+	. Making the C++ class instantiation and ordering
+	  in the spoon library thread-safe, after my 
+	  revelation about the Threads using the 
+	  half-constructed objects.
+	  
+
+18-02-2005
+
+	. Lots of changes to the kernel in order to 
+	  support multiple schedulers. Also, I did this
+	  so that it would be easier to delete, finish
+	  and crash processes and threads.
+	. Modification to the way IRQ's work slightly.
+	  They now have to acknowledge the interrupt
+	  that they were servicing. Good idea? dunno.
+
+15-02-2005
+
+	. Fixed the problem with exceptions in LFB
+	  mode.
+
+13-02-2005
+
+	. Fixed the shell bin directory searching.
+	. Modified the iso9660 fs driver to support
+	  filenames without extensions.
+
+
+08-02-2005
+
+	. Added some init parameters: search - search a 
+	  list of storage devices for a mountable roots, 
+	  run - execute a file from a mount, if possible.
+	. Created a terminal application which will load
+	  a shell and display it on a gui.
+	. Moved the ConsoleView into the main spoon library
+	  and cleaned it a little bit.
+	. Made the shell search /spoon/system/bin for any
+	  unhandled functions.
+
+07-02-2005
+
+	. Created an initial make_iso.pl script.
+	. Modified the make_floppy.pl to gzip the files instead 
+	  of them being gzip'ed on make install.
+	. Tried to fix the mpeg2decode (Unexpected startcode) 
+	  error.
+	
+
+06-02-2005
+
+	. Created a Console class and a ConsoleEnd class which,
+	  together, create the ability for the ConsoleView to
+	  exist.
+	. Improved the ConsoleView.  
+
+
+04-02-2005
+
+	. Playing with the mpeg2decode application and it
+	  actually plays movies now. On screen. In the GUI.
+	  It works.  Cool huh?  It just kind of worked.
+	  
+
+03-02-2005
+
+	. Created an "auto" fs type so that the FileSystem
+	  classes will test the device until a suitable
+	  FileSystem is found. The first compatible match.
+	. Modified the CDROM iso9660 FS driver so that it's
+	  case insensitive.
+	. Modified the init program to accept parameters.
+	. Added the "root=[device]" parameter to the init
+	  program so that the grub menu can specify the
+	  root device. FS is "auto" by default.
+	. Modified the kbd driver to use the Driver class. So
+	  now init can wait for all processes to start up
+	  successfully.
+	. Fixed two code oversights which were spotted by
+	  giszo.
+	  
+
+02-02-2005
+
+	. Created a System class which will provide standard
+	  system stuff like process execution, etc.
+
+01-02-2005
+
+	. Fixed the Window problem. Basically, it was my
+	  attempt to make Run() automatically split itself
+	  if it was _threaded and the programmer and called
+	  Run() directly.  Now I'm assuming that the 
+	  programmer knows what he/she's doing.
+	. Fixed the floppy.conf file.
+
+
+31-01-2005
+
+	. Lots of changes to the consoles in the kernel
+	  and the kernel libraries.
+	. Modifications to the kernel make the consoles
+	  dynamic.
+	. The kernel now also keeps the active_pid value
+	  in it's own console structure.
+	. The libkernel now has a mode attached to the
+	  console structures it uses. The modes are either
+	  VC_MODE_MESSAGE or VC_MODE_BUFFER. Buffer is the
+	  normal text mode whereas Message sends a Pulse
+	  to the specified receipient.
+	. This is the initial implementation. It will 
+	  probably change to get better.
+
+26-01-2005
+
+	. Created a ScrollBar, Scrollable class and
+	  improved the ListView to support them.
+
+24-01-2005
+
+	. Created a TextInput and incorporated all the
+	  new classes into the spoon library.
+	. Created an initial ConsoleView/Terminal.
+	. I need to modify the kernel consoles and
+	  make them virtual consoles.
+
+23-01-2005
+
+	. Created a ListView, ListItem and StringItem.
+
+22-01-2005
+
+	. Created a Button.
+
+21-01-2005
+
+	. Just copied the linux libm into the tree. sigh. I need
+	  to get it working correctly.
+	. Improvements to the gui_server
+	. Got rid of the WindowManagers. I will build them into
+	  the gui_server.
+
+20-01-2005
+
+	. Imported the libm library from FreeBSD/newos sources.
+
+
+13-01-2005
+
+	. Trying out the new font by giszo in apps/fontShow
+
+
+12-01-2005
+
+	. Fixed the TLS stuff.  Now it makes sense.
+	. Added a tls_test function to the shell.
+
+
+11-01-2005
+
+	. Added a pointer in the kernel/thread structure to 
+	  use for TLS.
+	. Added support for TLS to the library.
+	. Think I finished the thingies in the port stuff.
+
+
+06-01-2005
+
+	. Implemented the ability to wait on pid and tids.
+	. Implemented the process finishing.. It doesn't clean
+	  all the memory up yet.
+	. Added a new "thread_test" function to the shell.
+
+
+04-01-2005
+
+	. Fixed the DeviceNode stuff. 
+	. VFS working again.
+	. Shell sends command line parameters for the run command.
+	. Successfully ran mpeg2decode from inside the system.
+
+
+03-01-2005
+
+	. Imported the MPEG2 player code from mpeg.org
+	  into the apps/mpeg2decode directory. It compiles
+	  successfully but needs the file IO and a few math
+	  functions.
+	. Beginning of the math.c implementation of the
+	  libc library.
+	. Modified init to wait for the server ports to open.
+
+28-12-2004
+
+	. Added the pid+port idea into the kernel and
+	  kernel library.
+
+16-11-2004
+
+	. Added an ls command to the shell.
+	. Added the device listing ability to the VFS.
+	. Fixed the shell cat commands.
+	. Implement the List method for the ext2fs
+	  file system.  The file system needs work.
+
+15-11-2004
+
+	. Made the VFS a little more tolerant. 
+	. Added a List method to the FileSystem class
+	  in the VFS.
+	. Implemented the List method in the iso9660 fs
+	  so now you can list the contents of a CD.
+
+14-11-2004
+	
+	. Incorporated the ext2fs file system into the
+	  VFS. It successfully detects and loads the
+	  file system. However, I need to fix it. It doesn't
+	  read the correct files.
+	. Modified the ata driver to support partitions.
+	  So now there are devices that look like this: 
+	  /device/storage/hda0 and so on.
+
+13-11-2004
+
+	. Added a Size and Stat call to the File class. 
+	. The VFS now supports FS based files.
+	. The VFS supports the Size and Stat calls.
+	. The iso9660 file system seems to work.
+	. Reincorporated the shell application.
+	. Added mount and unmount support to the shell.
+	. Added cat and more to the shell.
+
+
+11-11-2004
+
+	. Damn stupid bug in the atapi driver which wouldn't
+	  read anything more than 1 sector correctly. I wasted
+	  HOURS on it.
+
+
+06-11-2004
+
+	. Cleaned up the ATA driver and implemented the nice 
+	  read and write methods.
+	. Created the ATAPI driver and it now successfully reads
+	  CD's and it ejects. 
+
+
+04-11-2004
+
+	. A working ATA driver that needs to be cleaned up.
+
+31-10-2004
+
+	. Finished the Exchange class. It's pretty cool. I wonder
+	  if I should integrate it into the Messenger class and
+	  then there won't be any hassle with remember where
+	  to send what and how to send it.
+	. Complete a rudimentary File class. Read, Write, Open, Close
+	  and Seek all work.
+	. The VFS seems to work for device nodes.
+ 	. Converted the old IDE driver to the new class.
+	. Made the File::Seek, VFS and DeviceNode operations use
+	  64 signed bits for position.
+	. Beginnings of an ATA driver.
+
+
+30-10-2004
+
+	. Created an Exchange class which is going to
+	  allow to asynchronous communication with 
+	  replies.
+	  
+
+29-10-2004
+
+	. Created the VFS server and a DeviceNode class.
+	. Created a rudimentary File class.
+
+28-10-2004
+
+	. Created a View class. You can add them to Windows
+	  now.
+
+
+27-10-2004
+
+	. Created a wm directory for the new window managers
+	  and I've also created a new interface/WindowManager
+	  class.
+	. I've added hooks into the gui_server to inform
+	  the WindowManager of any events.
+	  
+
+24-10-2004
+
+	. lots & lots. The Window class and the new gui_server
+	  are coming along nicely.
+
+18-10-2004
+
+	. The kernel library now initialises the constructors
+	  list and runs the desctructor list.
+	. Geez.. so much trouble but it's all working now.
+	. Added a Driver class which is a descendent of
+	  Application.
+
+17-10-2004
+
+	. A new direction with the renaming of the spoon
+	  library to libbe and a whole new spoon library
+	  to my own tastes.
+
+03-10-2004
+
+	. Acquisition of an IRQ now unmasks the IRQ 
+	  if it was masked.
+
+
+30-09-2004
+
+	. Re-implemented the window section syncing.
+	. Further implemented the String class in
+	  spoon library. All operators work.
+	. Cleaned up the openunix and posix libraries. 
+	  I haven't implemented them properly
+	  yet.
+	. Created an InfoApp to give new users some
+	  information.
+	. Updated the floppy.conf and uploaded a new
+	  floppy image.
+
+
+29-09-2004
+
+	. Implemented the window shortcuts in the Window
+	  class. 
+	. Implemented the Zoom feature of the Window class.
+	. Implemented the WindowActivated stuff too.
+	. Implemented other stuff in the Window class.
+	
+	
+
+28-09-2004
+
+	. Lots of changes to the spoon library regarding
+	  windows, themes, etc. Themes are now handled by
+	  the application itself.
+	. Changes to the app_server to support the new
+	  library changes.
+
+18-09-2004
+
+	. Further work on the cd player. I added a volume bar but
+	  it doesn't work.
+	. Update the floppy configuration.
+	  
+
+17-09-2004
+
+	. The kernel now masks any unhandled IRQ's.
+	. It also doesn't print out unhandled warnings
+	  in lfb mode.
+	. I also created the cd player application.
+
+09-09-2004
+
+	. Changed the idea of the consoles. Now there
+	  are several kernel consoles with shared pages
+	  between processes which are attached a single
+	  console.
+	. Added new system calls to reflect the changes.
+	. Added new library calls to reflect the changes.
+	. Modified init to move everything that isn't the
+	  shell to console number 2.
+	
+
+03-09-2004
+
+	. The new capability thingy is now in place. Access
+	  to all the system calls can be granted/revoked at
+	  will to remote or local threads. The system is 
+	  thread-bound.
+
+
+02-09-2004
+
+	. kernel: process_id -> pid
+	. kernel: thread_id -> tid
+	. Lots of changes to prepare for the capabilities as well
+	  as some cleaning up and documentation.
+
+
+26-08-2004
+
+	. I was messing around with the app_server and now it
+	  has special effects and stuff. I wonder how long they
+	  will last.
+	. I increased the size of pulses from 4 pieces of 
+	  information to 6 pieces of information.
+	. Fixed that bug in the app_server which crashed it on
+	  window closing. I was removing a pointer from a List
+	  and the return value is a bool but I was using it
+	  as the removed pointer. dah.
+	. The kernel now prints output to the LFB buffer now
+	  when it's in LFB mode.
+	
+
+25-08-2004
+
+	. I kinda included a random number pool in the kernel. I
+	  don't know how random it is.
+	. I also implemented the atexit() and exit() functions of
+	  C99 in libc.
+	
+
+23-08-2004
+
+	. Improved the printf function in libc - more in
+	  line the standard gcc printf.
+	. Improved the conio_* functions in libkernel.
+	. Created a sprintf function.
+	. Quickly fixed the DeskBar to print the correct
+	  time.
+
+
+22-08-2004
+
+	. I created a NetConfig class which allows the programmer
+	  to manipulate the net_server configuration. Interface
+	  and routing information can be changed.
+	. Added some additional functions to the shell: route,
+	  ifconfig, reboot, clear.
+	. Update the floppy.conf
+
+20-08-2004
+
+	. I got the ARP replies working again. I was replying
+	  with the ARP_Packet->Length() length which is 
+	  incorrect. I will need to look at this and determine
+	  what it should be.
+
+19-08-2004
+
+	. Modified the shell to contain a function 
+	  directory with a function list.  The functions
+	  themselves are implemented in their own "main"
+	  functions.
+	. net_server: ARP packets are spliced up into their
+	  own queue and dealt with separately along with
+	  being sent to the stack for userland sniffers.
+	. net_server: ARP replies are generated manually now.
+	. Packet.h classes now have a Create function
+	  for each which causes the packet to become the owner.
+	. Exception relocations are now also given kernel stacks to 
+	  prevent further exceptions.
+	. Note to self: be careful of inheritance in Packet.h
+	. Packets to transmit are now queued and then transmitted
+	  by a separate thread.
+
+
+18-08-2004
+
+	. Further work on the ARP daemon.
+	. Kernel IRQ handling now breaks out of an IRQ
+	  servicing request after a certain amount of
+	  time.
+	. All ARP traffic now goes straight to the
+	  ARP daemon.
+	. Incoming packets in the net_server are now
+	  queued up for a separate thread to handle.
+
+
+17-08-2004
+
+	. Created a basic ARP daemon for the net_server. It
+	  doesn't work yet.
+
+16-08-2004
+
+	. I'm creating a DJFS file system driver in order
+	  to experiment with my new vfs_server design.
+	. Created a RAMDisk driver. Two RAMDisks are created
+	  by default.
+	. Continued work on the net_server. I think I have
+	  basic routing in place.
+
+15-08-2004
+	
+	. Improved the networking code by adding 
+	  the InterfaceManager and RouteManager.
+	. Using everything I've learnt by doing the
+	  net_server to rewrite the vfs_server.
+
+12-08-2004
+
+	. Improved the RawSocket class to include
+	  proper return codes, correct messaging,
+	  decent registration, etc. 
+	. Improved the net_server to accomodate
+	  processes/sockets/binds.
+	. Implemented a transmission attempt.
+
+
+08-08-2004
+
+	. Created a spoon/network/RawSocket class which
+	  can bind to sockets in the net_server. Data is
+	  transferred using the new message system.
+	. Modified tester1 to display ARP messages.
+	. Modified tester2 to display UDP messages.
+	. Created tester3 to display IP messages.
+	. Created a sniffer app to display all packets
+	  from the network.
+
+
+07-08-2004
+
+	. Modified the pulse and message calls to send directly
+	  to threads now as opposed to a single process entry
+	  point. This is done to speed up my socket code.
+
+
+06-08-2004
+
+	. Added messages into the kernel and the kernel library.
+	. All "pulse_handler" functions and references have 
+	  been changed to "ipc_handler".
+	. Created two test programs for the new messaging.
+	  tester1 and tester2
+	. Added a changelog.
+	  
+	  

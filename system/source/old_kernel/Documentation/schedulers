@@ -1,0 +1,98 @@
+
+
+
+You are able to create your own scheduler implementations by creating
+a new file in schedulers/ which provide the following functions:
+
+
+	int sched_init();		
+	int sched_shutdown();	
+
+	int sched_stop( int rc );	
+						
+	int sched_insert( struct thread * ); 
+	int sched_remove( struct thread * ); 
+	
+	int sched_request( struct thread * );
+	int sched_ack( struct thread * ); 
+
+	int scheduler();	
+
+
+
+Please see the round robin scheduler (schedulers/rr.c) for a simple example.
+Please see the empty scheduler (schedulers/empty.c) for an empty example.
+
+
+
+sched_init and sched_shutdown are called before and after the system runs 
+for you to create your own specific structures.  The environment is
+clean, non-threading and the memory functions are available.
+
+sched_stop is called to signal the scheduler that it must return.
+
+sched_insert and sched_remove are used to queue threads to run. It's up to
+your implementation to note that and let them run.
+
+sched_request and sched_ack are called to request immediate-ish execution
+of important threads.  You can ignore their importance, if you like, and just
+run them as normal threads but you will not get responsiveness.  These
+come in from IRQ's.
+
+scheduler() is the actual scheduler routine which should be a constant
+loop, calling switch_thread(thread*) when it needs to execute a thread.
+It should only return when sched_stop has been called and it should
+return the value passed to it by sched_stop.
+
+
+The scheduler() has safe access to:
+
+	switch_thread();		- to run/process any thread it needs to.
+
+		It returns the number of execution units which occurred. So,
+		if the thread actually ran once, then this will return 1.
+
+		It's important to remember that if there were no execution
+		units, then there was no opportunity for an IRQ's and
+		then you're just going to spin in the scheduler().
+
+		So, when the total execution counts == 0, it's best
+		to run the smk_idle thread.
+
+
+	ability to run smk_idle thread using switch_thread()
+
+
+Please note that the following must be true about your implementations:
+
+	1. They must be atomic and thread-safe	- can be called by multiple
+	   threads without causing damage.
+
+	2. They are non-interruptable - provide disable/enable_interrupts 
+	   wrappers around any of your code.
+
+	3. All functions (exception scheduler()) return 0 on success or
+ 	   -1 on failure.
+
+	4. scheduler() will return the value which was given in sched_stop()
+
+	5. Requested threads will not block any other threads as
+	   they may be waiting on resources from others.
+
+	6. Your implementations may be called from within scheduler() and not
+	   cause any problems.
+
+
+Please not that the following is true about the system:
+
+	1. The system guarantees that the memory functions will be
+	   available for use in your scheduler routines except:
+
+			scheduler()
+
+
+ 	2. The thread/context from which the scheduler/switch_thread
+ 	   returns may no longer be valid. 
+
+
+

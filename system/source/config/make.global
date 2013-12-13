@@ -1,0 +1,24 @@
+
+BASEPATH= /spoon
+
+SYSTEMPATH= /spoon/system
+
+LIBRARYPATH= /spoon/system/libraries
+
+HEADERPATH= -I/spoon/system/source/include 			\
+			-I/spoon/system/source/include/spoon 	\
+			-I/spoon/system/source/include/unix 	\
+			-I/spoon/system/source/include/c++ 		\
+			-I/spoon/system/source/include/c++/v3
+
+
+CFLAGS = -fno-builtin -nostdinc -static -Wall $(ARCH_CFLAGS)
+CCFLAGS= -fno-builtin -nostdinc -static -Wall $(ARCH_CCFLAGS)
+
+LDSCRIPT= /spoon/system/source/ldscripts/$(ARCH_BASE)/app.ld
+
+LDFLAGS=  -static \
+		   --script=/spoon/system/source/ldscripts/$(ARCH_BASE)/app.ld 
+
+
+

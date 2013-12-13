@@ -1,0 +1,29 @@
+
+
+This is a list of credits, ordered by date, of contributions by people.  There are a lot missing (not necessarily people, just contributions) and I'll add them in as I run across them or remember them.  Email me if you know of one that I have forgotten. (sorry).
+
+
+2005-10-11 - froggey/giszo - The kernel atomic jc _locked fix from the forums. 
+2005-10-11 - dufrp - Applied the PS2Driver.cpp patch to enable the mouse interrupt.
+2005-08-16 - giszo - Faster memcpy in the UNIX library. Modified his code a bit. 
+2005-07-25 - giszo - IRQ mask now, instead of retrieving the IRQ masks from the PIC.
+2005-07-24 - giszo - IRQ comparison fix in request/release_irq kernel functions.
+2005-07-05 - giszo - GDT assembler jump fix. Allows for O2 kernel optimizations. 
+2005-07-05 - giszo - new PCI code for the kernel. It's much better and it actually works. My old code didn't.
+2005-07-01 - giszo - suggestion that the kernel ensure that it's attempting to execute an ELF. 
+2005-06-14 - giszo - snprintf conio to bufcon correction in libc
+2005-06-14 - giszo - format string error in arch/i686/atomic for "COMING FROM" stuff. 
+2005-05-10 - Nathan Olberding - grammar and syntax correct for kernel/console.c
+2005-04-24 - giszo - outw_p didn't include a pause. 
+2005-04-23 - giszo - IRQ/THREE syscall wasn't returning a valid code.
+2005-04-23 - giszo - delete_vmmap in 386/686 was using memory_free instead of free.
+2005-04-14 - giszo - Finding the atomic spinlock problem (not releasing).
+2005-04-08 - Christopher Nelson - FPU MMX,SSE,SSE2 bug location.
+2005-04-04 - Douglas Lockamy - New build system inspiration and suggestion.
+2005-03-31 - Christopher Nelson - stack trace code for i686 exceptions.
+2005-03-28 - giszo - timing code for the i686 cpu.
+2005-01-15 - giszo - a new font for the video modes. Embedded in the kernel and spoon libraries.
+2005-01-05 - Christopher Nelson - userland port bitmap for libkernel/ports.
+
+
+

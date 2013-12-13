@@ -1,0 +1,9 @@
+
+
+ARCH_BASE	= i686
+
+ARCH_CFLAGS = -march=athlon -mcpu=athlon -mmmx -m3dnow 
+ARCH_CCFLAGS= -march=athlon -mcpu=athlon -mmmx -m3dnow 
+
+
+

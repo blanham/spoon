@@ -1,0 +1,14 @@
+
+Hey! Sorry for the mistake but this is a new re-write of the kernel and is incomplete at the moment. You should have downloaded the snapshot.tar.gz and look for the "old_kernel" directory.
+
+
+
+To read and follow the instructions in the kernel....
+
+start: jump.S/__entry
+follow: init.c
+
+glance: kernel.ld
+glance: Makefile
+
+

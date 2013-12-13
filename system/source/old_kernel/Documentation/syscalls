@@ -1,0 +1,119 @@
+
+SYSTEM CALLS
+------------
+
+This is the system call table.
+
+
+SYSTEM CALL, FUNCTION  -  DESCRIPTION
+-------------------------------------------------------
+
+SYS_MEMORY, SYS_ONE		-  memory alloc/free
+SYS_MEMORY, SYS_TWO		-  memory map physical region
+SYS_MEMORY, SYS_THREE	-  return size of allocated memory
+SYS_MEMORY, SYS_FOUR	-  physical location of alloc'd memory
+SYS_MEMORY, SYS_FIVE	-  share/transfer memory
+SYS_MEMORY, SYS_SIX		-  accept/reject memory
+SYS_MEMORY, SYS_SEVEN	-  release memory
+
+
+
+
+
+SYS_SEMAPHORE, SYS_ONE	-  create semaphore
+SYS_SEMAPHORE, SYS_TWO	-  destroy semaphore
+SYS_SEMAPHORE, SYS_THREE-  wait semaphore
+SYS_SEMAPHORE, SYS_FOUR	-  signal semaphore
+SYS_SEMAPHORE, SYS_FIVE	-  watch semaphore
+
+SYS_SYSTEM, SYS_ONE		-  find pid from name
+SYS_SYSTEM, SYS_TWO		-  get name from pid
+SYS_SYSTEM, SYS_THREE	-  pid exists
+
+SYS_PROCESS, SYS_ONE	-  get current pid + tid
+SYS_PROCESS, SYS_TWO	-  set process state
+SYS_PROCESS, SYS_THREE	-  process exit
+SYS_PROCESS, SYS_FOUR	-  set the TLS location for the process.
+SYS_PROCESS, SYS_FIVE	-  Environment variables.
+
+SYS_THREAD, SYS_ONE	-  spawn thread
+SYS_THREAD, SYS_TWO	-  set thread state
+SYS_THREAD, SYS_THREE	-  find thread with name
+SYS_THREAD, SYS_FOUR	-  go dormant
+SYS_THREAD, SYS_FIVE	-  thread exit
+SYS_THREAD, SYS_SIX	-  set/get TLS value for thread
+
+SYS_CAP, SYS_ONE	-  remote set
+SYS_CAP, SYS_TWO	-  remote get
+SYS_CAP, SYS_THREE	-  local set
+SYS_CAP, SYS_FOUR	-  local get
+
+
+SYS_PULSE, SYS_ONE	-  send pulse
+SYS_PULSE, SYS_TWO	-  receive pulse
+SYS_PULSE, SYS_THREE	-  preview pulse
+SYS_PULSE, SYS_FOUR	-  waiting pulse count
+SYS_PULSE, SYS_FIVE	-  drop pulse 
+
+
+SYS_MESSAGE, SYS_ONE	-  send message
+SYS_MESSAGE, SYS_TWO	-  receive message
+SYS_MESSAGE, SYS_THREE	-  preview pulse
+SYS_MESSAGE, SYS_FOUR	-  drop message
+
+
+SYS_PORT, SYS_ONE	-  create a port
+SYS_PORT, SYS_TWO	-  translate a port to a tid
+SYS_PORT, SYS_THREE	-  translate a tid to a port
+SYS_PORT, SYS_FOUR	-  release a port
+SYS_PORT, SYS_FIVE	-  set/get port flags
+SYS_PORT, SYS_SIX	-  bulk set/get port flags
+
+
+SYS_EXEC, SYS_ONE	-  execute memory region
+
+SYS_PCI, SYS_ONE	-  scan pci bus
+
+SYS_TIME, SYS_ONE	-  get rtc time
+SYS_TIME, SYS_TWO	-  get system time
+SYS_TIME, SYS_THREE	-  delay
+SYS_TIME, SYS_FOUR	-  sleep
+SYS_TIME, SYS_FIVE	-  wait for pid/tid
+SYS_TIME, SYS_SIX	-  yield (release timeslice)
+
+SYS_IRQ, SYS_ONE	-  acquire irq
+SYS_IRQ, SYS_TWO	-  release irq
+SYS_IRQ, SYS_TWO	-  acknowledge IRQ
+
+SYS_IO, SYS_ONE		-  request/release io port
+SYS_IO, SYS_TWO		-  release/request io privileges
+
+
+SYS_CONSOLE, SYS_ONE	-  get console base
+SYS_CONSOLE, SYS_TWO	-  get console size
+SYS_CONSOLE, SYS_THREE	-  set active console
+SYS_CONSOLE, SYS_FOUR	-  get process' console
+SYS_CONSOLE, SYS_FIVE	-  switch process' console
+
+SYS_LFB, SYS_ONE	-  get lfb information
+SYS_LFB, SYS_TWO	-  i dunno
+SYS_LFB, SYS_THREE	-  request lfb
+
+
+SYS_INFO, SYS_ONE	-  system information
+SYS_INFO, SYS_TWO	-  process information
+SYS_INFO, SYS_THREE	-  thread information
+SYS_INFO, SYS_FOUR	-  a random number
+SYS_INFO, SYS_FIVE	-  spit.. to be removed.
+SYS_INFO, SYS_SIX	-  dmesg information
+
+SYS_REBOOT, SYS_ONE	-  reboot
+
+
+SYS_SHMEM, SYS_ONE		- create shmem
+SYS_SHMEM, SYS_TWO		- delete shmem
+SYS_SHMEM, SYS_THREE	- grant/revoke shmem
+SYS_SHMEM, SYS_FOUR		- request/release shmem
+SYS_SHMEM, SYS_FIVE		- find named region
+SYS_SHMEM, SYS_SIX		- get region information
+

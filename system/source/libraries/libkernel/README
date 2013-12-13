@@ -1,0 +1,30 @@
+
+
+This is the userland kernel library which you can link your
+applications against to create your userland applications
+and libraries.
+
+
+QUICK HOW TO
+------------
+
+make compile
+
+
+RESULTS
+-------
+
+Now, you're only interested in the resulting libkernel.a and
+the ./include subdirectory.  Copy the libkernel.a to your 
+library path - wherever you want it to be - and copy the 
+contents of ./include/ to your include path - wherever you 
+want it to be.
+
+Link against it whenever you compile your userland application
+for the spoon microkernel. Pretty easy.
+
+PS: Be sure to use a correct linker script for the userland
+applications.
+
+
+

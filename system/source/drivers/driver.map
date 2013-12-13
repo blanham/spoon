@@ -1,0 +1,22 @@
+# This file gives the driver mapping for the PCI vendor and device ID's.
+#
+#
+#	VendorID	DeviceID	driver
+#
+#	0x5ADE		0x8139		network/rtl8139
+#
+
+
+0x1259	0x2503	network/rtl8139
+0x1743	0x8139	network/rtl8139
+0x14EA	0xAB06	network/rtl8139
+0x1039	0x8139	network/rtl8139
+0x1065	0x8139	network/rtl8139
+0x10EC	0x8138	network/rtl8139
+0x10EC	0x8139	network/rtl8139
+
+0x15AD	0x0405	video/vmware
+0x15AD	0x0710	video/vmware
+
+
+

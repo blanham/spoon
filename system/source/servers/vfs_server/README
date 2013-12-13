@@ -1,0 +1,18 @@
+
+
+ORDER OF NODE ORDERING
+----------------------
+
+Device Tree:
+
+  1. Device
+  2. DeviceDirectory
+
+
+File Tree:
+
+  1. File
+  2. Directory
+
+
+

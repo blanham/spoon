@@ -1,0 +1,20 @@
+
+To add your own functions to the shell:
+
+
+In your functions/myfunc.cpp file:
+
+  #include "../flist.h"
+
+  create a "struct function_info info_myfunc"
+  create a "int myfunc_main( int argc, char **argv )"
+
+Then, in "flist.h", add one to the TOTAL_FUNCTIONS definition.
+Then, in flist.cpp, add your "struct function_entry" to the functions[] array and include your "functions/myfunc.h" declarations along with the rest of them.
+
+
+NB:  Keep your function names unique to your function or else they probably will collide with other functions.
+
+Look at functions/help.cpp, functions/help.h, etc for an example.
+
+

@@ -1,0 +1,41 @@
+This is the Spoon operating system by Durand, preserved here for posterity after being
+retrieved from the Wayback Machine at archive.org.
+
+Please see LICENSE for licensing details.
+
+
+This is the source tree for the spoon microkernel and 
+relevant apps, drivers, servers, etc.
+
+
+Have a look inside the scripts directory for the easy, quick, building stuff.
+
+
+
+Quick start:
+------------
+
+(Confirm that the source tree is installed in: /spoon/system/source)
+
+cd /spoon/system/source
+./configure.pl --list
+./configure.pl --arch=i686		(or whatever)
+make all; 
+make install;
+
+
+To make an ISO or floppy:
+-------------------------
+
+( do the above Quick Start, then ...  )
+cd scripts
+sudo ./make_floppy.pl
+./make_iso.pl
+cd ../builds
+ls
+
+
+Durand Miller
+clutter@djm.co.za
+
+
